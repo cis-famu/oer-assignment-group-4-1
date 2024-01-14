@@ -83,8 +83,8 @@ Upon finishing this chapter, students will have the capability to:
 
 ### Review Questions
 
-## Prepocessor Directives
-
+## Preprocessor Directives
+Not all 
 ### namespace and Using cin and cout in a Program
 
 ### Using the string Data Type in a Program
