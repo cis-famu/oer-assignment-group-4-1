@@ -21,7 +21,7 @@ The programming language consists of its own special symbols, words, and syntax 
 - Semantic rules: determines the meaning of the instructions
 
 ### Comments
-Comments can be used to identify the author, date it was written, an explanation of the program and meanings of key statements
+Identifies the author, date it was written, an explanation of the program and meanings of key statements
 - For the readers, not compiler
 Two types of comments: single-line and multiple-line comments
 -S.L. begin with / / and can be placed anywhere in the line
@@ -42,7 +42,7 @@ Letters that make up a reserved word are always lowercase (i.e, int, float, doub
      *Cannot be used for anything other than their intended use*
 
 ### Identifiers
-Identifiers: names of things that appear in programs, such as variables, constants, and functions
+Names of things that appear in programs, such as variables, constants, and functions
 - Some are predefined (can be redefined), others are defined by the user
 -  ex. ‘cout’ is a predefined identifier, ‘length’ is a user-defined identifier
 Can only be made up of letters, digits, and the underscore character
@@ -60,7 +60,7 @@ C++ has three data type categories: Simple data type, Structures data type, and 
 
 ### Simple Data Types
 Considered the building block of structured data type
-Three categories of simple data:
+Three categories of simple data: Intergral, Floating Point, and Enumeration
 Integral: Deals with integers, or numbers without a decimal part
 - Classifications: char, shirt, int, long, bool, unsigned charm unsigned short, unsigned int, unsigned long, long long, unsigned long
   - These data types represents the values associated with it
