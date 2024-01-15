@@ -160,7 +160,9 @@ In C++, some data must remain the same throughout the program. An example is a c
 
 ## Preprocessor Directives
 C++ programming involves a particular and concise set of operations, and the crucial functions and symbols required for running a C++ program are encapsulated within different libraries. Each library is identified by a name and associated with a header file. Preprocessor directives play a critical role and are executed by the preprocessor program.
+
 -Preprocessor directives, which are initiated with a # symbol, guide the preprocessor without needing a semicolon at the end of the commands. You would use the syntax #include <HeaderFileName> if you wanted to have a header file included.
+
 -Preprocessor commands will always be processed before the program is sent through the compiler.
 
 -An example would be #include <iostream>.
