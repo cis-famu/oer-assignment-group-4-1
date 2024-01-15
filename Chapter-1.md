@@ -98,13 +98,30 @@ The principal objective of a C++ program is to execute calculations and manipula
 2. Include statements in the program to put data into the allocated memory.
 
 ### Allocating Memory with Constants and Variables
-When you tell a computer to allocate memory, you ask for storage space to hold your data. It would be best if you kept up with where you store the data and which name it is under. Knowing the data type is also valuable information. Depending on the data type, you will handle them differently. You also need to determine whether or not you need to have specific data “fixed" or if it can change throughout the program.
-
-In C++, some data must remain the same throughout the program. An example is a conversion formula that must stay the same because that is a fact that never changes, like how a foot is always 12 inches. When storing a fixed data type, you will use the syntax 'const dataType identifier = value;.’ This gives the statement a unique name, which renders it unchanging. Now, it is stored in the computer’s memory, so when needed again, the computer uses that same data, eliminating the risk of it changing while the program runs.
+In C++:
+-When instructing a computer to allocate memory, you request storage space to hold your data.
+-It's crucial to keep track of where you store the data and the name under which it is stored.
+-Knowing the data type is valuable information as different data types are handled differently.
+-Determining whether specific data needs to be "fixed" or can change throughout the program is essential.
+Constants:
+-Some data must remain constant throughout the program, such as conversion formulas that never change.
+-Storing a fixed data type involves using the syntax 'const dataType identifier = value;.'
+-This assigns a unique name to the statement, making it unchangeable.
+-The data is stored in the computer's memory, ensuring it remains constant when needed again during the program's execution.
+Variables
+-In some programs, data needs to be changed during execution.
+-As an example, an employee's salary changes over time and if you wanted to store them you would not store them as a constant but instead as a variable because it can be changed.
+-The syntax for a variable would look like this, dataType identifier, identifier, ...;
+-There are no written rules for naming variables or constants but for variables programmers normally use lower case letters, and uppercase letters for constants.
 
 ### Putting Data into Variables
+In C++ there are two ways:
+1. Use C++'s assignment statement.
+2. Use input (read) statements.
 
 ### Assignment Statement
+Syntax for assignment statement: variable = expression;
+
 
 ###  Saving and Using the Value of an Expression
 
