@@ -156,7 +156,7 @@ In C++:
 
 Constants:
 * Some data must remain constant throughout the program, such as conversion formulas that never change.
-* Storing a fixed data type involves using the syntax ```cpp const dataType identifier = value;```.
+* Storing a fixed data type involves using the syntax ```const dataType identifier = value;```.
 * This assigns a unique name to the statement, making it unchangeable.
 * The data is stored in the computer's memory, ensuring it remains constant when needed again during the program's execution.
 
