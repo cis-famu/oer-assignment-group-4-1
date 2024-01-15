@@ -123,7 +123,11 @@ Operands are the numbers within an expression are referred to as operands.
 ### Review Questions
 
 ## string Type
+A string is simply a sequence of zero or more characters. The string type in C++ is robust and exhibits greater complexity than simple data types. Beyond offering the necessary storage space for strings, it encompasses a range of operations for string manipulation. 
 
+-In C++, you will find strings inside quotation marks. 
+
+-For example, “Example” is how you would see a string in C++. If you find a string with no characters, that is an “empty’ or “null” string. 
 ### Review Questions
 
 ## Assignment Statements, Input Statements
