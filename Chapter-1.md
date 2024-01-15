@@ -63,8 +63,8 @@ The principal objective of a C++ program is to execute calculations and manipula
 2. Include statements in the program to put data into the allocated memory.
 
 ### Allocating Memory with Constants and Variables
-When you tell a computer to allocate memory, you are essentially asking for storage space to hold your data. It is important for you to keep up with where you store the data and which name it is under. Knowing the data type is also valuable information depending on the data type you will handle them differently. You also need to determine whether or not you need to have certain data "fixed" or if it can change throughout the program.
-
+When you tell a computer to allocate memory, you ask for storage space to hold your data. It would be best if you kept up with where you store the data and which name it is under. Knowing the data type is also valuable information. Depending on the data type, you will handle them differently. You also need to determine whether or not you need to have specific data “fixed" or if it can change throughout the program.
+In C++, some data must remain the same throughout the program. An example is a conversion formula that must stay the same because that is a fact that never changes, like how a foot is always 12 inches. When storing a fixed data type, you will use the syntax 'const dataType identifier = value;.’ This gives the statement a unique name, which renders it unchanging. Now, it is stored in the computer’s memory, so when needed again, the computer uses that same data, eliminating the risk of it changing while the program runs.
 
 ### Putting Data into Variables
 
