@@ -14,20 +14,49 @@ Upon finishing this chapter, students will have the capability to:
 ## Introduction
 
 ## Basic Elements
+C++ program is a collection of one or more subprograms—called functions (collection of statements, and when activated, it accomplishes something
+- ‘Predefined’ or ‘standard’ functions are already written and provided in the system
+Every C++ program has a function called ‘main’, even if the program has one function
+The programming language consists of its own special symbols, words, and syntax rules (tell of statements are accepted or not in the program)
+- Semantic rules: determines the meaning of the instructions
 
 ### Comments
+Comments can be used to identify the author, date it was written, an explanation of the program and meanings of key statements
+- For the readers, not compiler
+Two types of comments: single-line and multiple-line comments
+-S.L. begin with / / and can be placed anywhere in the line
+   - Anything after / / is ignored by the compiler
+-M.L. are structured as / * and * /.
+   - Anything in between these symbols are ignored by the compiler
 
 ### Special Symbols
+Token: smallest individual unit of a program
+ - Divided into special symbols, word symbols and identifiers
+    - Mathematical symbols (+, -, *, /)
+    - English grammar (. , ; , ?, ,)
+    - Tokens: nothing can go in between these characters (<=, !=, ==, >=)
 
 ### Recieved Words (Keywords)
+Letters that make up a reserved word are always lowercase (i.e, int, float, double, char, etc.)
+ - Each is considered to be a single symbol
+     *Cannot be used for anything other than their intended use*
 
 ### Identifiers
+Identifiers: names of things that appear in programs, such as variables, constants, and functions
+- Some are predefined (can be redefined), others are defined by the user
+-  ex. ‘cout’ is a predefined identifier, ‘length’ is a user-defined identifier
+Can only be made up of letters, digits, and the underscore character
+C++ is case sensitive, number and NUMBER are considered different
+To tell if an identifier is illegal, it cannot have any spaces, numbers, or special characters 
 
 ### Whitespaces
+Whitespaces include blacks, tabs, and newline characters
+- Used to separate special symbols, reserved words, and identifiers
 
 ### Review Questions
 
 ## Data Types
+C++ has three data type categories: Simple data type, Structures data type, and Pointers
 
 ### Simple Data Types
 
@@ -36,6 +65,12 @@ Upon finishing this chapter, students will have the capability to:
 ### Review Questions
 
 ## Variables
+Implicit Type Coercion: A value of one data type is automatically changed to another data type
+To avoid implicit type coercion, C++ provides explicit type conversion through a ‘cast operator’- is called ‘type conversion’ or ‘type casting’
+- First, the expression is evaluated and then converted to value of the type specified by ‘dataTypeName’
+- When converting a floating-point (decimal) number to an integer using the cast operator, you simply drop the decimal part of the floating-point number.
+- (few examples for 2.6)
+- You can also use cast operators to explicitly convert char data values into int data values and int data values into char data values.
 
 ### Review Questions
 
