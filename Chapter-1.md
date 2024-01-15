@@ -59,8 +59,37 @@ Whitespaces include blacks, tabs, and newline characters
 C++ has three data type categories: Simple data type, Structures data type, and Pointers
 
 ### Simple Data Types
+Considered the building block of structured data type
+Three categories of simple data:
+Integral: Deals with integers, or numbers without a decimal part
+- Classifications: char, shirt, int, long, bool, unsigned charm unsigned short, unsigned int, unsigned long, long long, unsigned long
+  - These data types represents the values associated with it
+Floating point: Deals with decimal numbers
+Enumeration: User-defined data type
+‘int’ Data Type
+-Integers in mathematics
+  - Positive integers do not need a + sign in front
+  - No commas within integers (i.e 36, 765 is seen as 36 and 765)
+‘bool’ Data Type
+-Has only two values: true and false
+  -called the logical (Boolean) values 
+‘char’ Data Type
+-Used to represent single characters (letters, number, and special symbols) on your keyboard
+  - enclose each character within single quotation marks (i.e ‘A’, ‘b’, ‘+’
+The most common character data sets are the American Standard Code for Information Interchange (ASCII) and Extended Binary-Coded Decimal Interchange Code (EBCDIC)
+- ASCII has 128 values, while the EBCDIC has 256 values and was created by IBM
 
 ### Floating-Point Data Types
+A form of scientific notation
+- The letter E stands for exponent (i.e: ‘0.0000453’ would be ‘4.530000E-5’ in C++ Floating-Point Notation)
+Three data types: float, double, and long double
+- On most new compilers, double and long double are considered the same thing
+The maximum and minimum values of the data types ‘float’ and ‘double’ are system dependent
+-Other than set values, the other different between these two data types are the maximum value of significant figures
+  -In float values is six or seven
+  -In double, values is 15
+Precision: maximum number of significant digits
+- Sometimes float values are called single precision, and values of type double are called double precision
 
 ### Review Questions
 
