@@ -14,7 +14,7 @@ Upon finishing this chapter, students will have the capability to:
 ## Introduction
 
 ## Basic Elements
-C++ program is a collection of one or more subprograms—called functions (collection of statements, and when activated, it accomplishes something
+C++ program is a collection of one or more subprograms—called functions (collection of statements, and when activated, it accomplishes something)
 - ‘Predefined’ or ‘standard’ functions are already written and provided in the system
 Every C++ program has a function called ‘main’, even if the program has one function
 The programming language consists of its own special symbols, words, and syntax rules (tell of statements are accepted or not in the program)
@@ -98,7 +98,7 @@ Implicit Type Coercion: A value of one data type is automatically changed to ano
 To avoid implicit type coercion, C++ provides explicit type conversion through a ‘cast operator’- is called ‘type conversion’ or ‘type casting’
 - First, the expression is evaluated and then converted to value of the type specified by ‘dataTypeName’
 - When converting a floating-point (decimal) number to an integer using the cast operator, you simply drop the decimal part of the floating-point number.
-- (few examples for 2.6)
+- *****(few examples for 2.6)******
 - You can also use cast operators to explicitly convert char data values into int data values and int data values into char data values.
 
 ### Review Questions
