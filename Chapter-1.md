@@ -149,7 +149,7 @@ The principal objective of a C++ program is to execute calculations and manipula
 
 ### Allocating Memory with Constants and Variables
 In C++:
-   -When instructing a computer to allocate memory, you request storage space to hold your data.
+-When instructing a computer to allocate memory, you request storage space to hold your data.
 
 -It's crucial to keep track of where you store the data and the name under which it is stored.
 
@@ -184,7 +184,9 @@ In C++ there are two ways:
 
 ### Assignment Statement
 Syntax for assignment statement: variable = expression;
-
+* The value of the expression and the data type of the variable should match.
+* The expression is computed on the right side.
+* The value is designated to the variable on the left side.
 
 ###  Saving and Using the Value of an Expression
 
