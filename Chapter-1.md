@@ -94,12 +94,6 @@ Precision: maximum number of significant digits
 ### Review Questions
 
 ## Variables
-Implicit Type Coercion: A value of one data type is automatically changed to another data type
-To avoid implicit type coercion, C++ provides explicit type conversion through a ‘cast operator’- is called ‘type conversion’ or ‘type casting’
-- First, the expression is evaluated and then converted to value of the type specified by ‘dataTypeName’
-- When converting a floating-point (decimal) number to an integer using the cast operator, you simply drop the decimal part of the floating-point number.
-- *****(few examples for 2.6)******
-- You can also use cast operators to explicitly convert char data values into int data values and int data values into char data values.
 
 ### Review Questions
 
@@ -119,6 +113,12 @@ Operands are the numbers within an expression are referred to as operands.
 ### Review Questions
 
 ## Type Conversion (Casting)
+Implicit Type Coercion: A value of one data type is automatically changed to another data type
+To avoid implicit type coercion, C++ provides explicit type conversion through a ‘cast operator’- is called ‘type conversion’ or ‘type casting’
+- First, the expression is evaluated and then converted to value of the type specified by ‘dataTypeName’
+- When converting a floating-point (decimal) number to an integer using the cast operator, you simply drop the decimal part of the floating-point number.
+- *****(few examples for 2.6)******
+- You can also use cast operators to explicitly convert char data values into int data values and int data values into char data values.
 
 ### Review Questions
 
