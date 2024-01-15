@@ -104,6 +104,9 @@ To avoid implicit type coercion, C++ provides explicit type conversion through a
 ### Review Questions
 
 ## Arithmetic Operators, Operator Precedence, and Expressions
+Arithmetic operators in C++ include + (Addition), - (Subtration), *(Multiplication), / (Division) and % (modulus).
+-Arithmetic operators are used for integral and floating-point data types.
+Operands: The numbers within an expression are referred to as operands.
 
 ### Order Precedence
 
