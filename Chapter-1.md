@@ -151,6 +151,16 @@ In C++, some data must remain the same throughout the program. An example is a c
 ### Review Questions
 
 ## Increment and Decrement Operators
+The increment and decrement are valuable tools in C++. By using ++, we can quickly increase the value of a variable by one and can use - - to decrease the value of a variable by one.
+
+-Both increment and decrement operators come in two forms: pre and post-.
+
+-The syntax for the increment operator is: Pre-increment: ++variable, Post-increment: variable++.
+
+-The syntax of the decrement operator is Pre-decrement: --variable, Post-decrement: variable–.
+
+The difference between having the increment or decrement come before or after comes into play when used in an expression. For example,  
+z is an int variable. If ++z is used in our expression, z will first be incremented by one, and then its new value will be used. However, if z++ is used in our expression, first the value of z will be used, followed by an increment of 1.
 
 ### Review Questions
 
