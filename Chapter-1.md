@@ -116,6 +116,9 @@ Multiplication (*), Division (/), and Modulus (%) have a higher precedence than 
 Operations with the same precedence are performed from left to right.
 
 ### Expressions
+Expressions are fundamental in C++. Expressions allow you to manipulate data and perform different operations. Expressions are usually comprised of variables, operators, and constants which are to be evaluated.
+
+- Example (a+b)-4
 
 ### Mixed Expressions
 
