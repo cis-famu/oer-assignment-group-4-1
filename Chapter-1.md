@@ -105,6 +105,15 @@ Arithmetic operators in C++ include + (Addition), - (Subtration), *(Multiplicati
 Operands are the numbers within an expression are referred to as operands.
 
 ### Order Precedence
+Arithmetic operators follow a specific order of precedence.
+
+Precedence Hierarchy:
+
+Multiplication (*), Division (/), and Modulus (%) have a higher precedence than Addition (+) and Subtraction (-).
+
+-Execution Sequence:
+
+Operations with the same precedence are performed from left to right.
 
 ### Expressions
 
