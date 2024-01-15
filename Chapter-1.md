@@ -134,7 +134,7 @@ To avoid implicit type coercion, C++ provides explicit type conversion through a
 
 ### Review Questions
 
-## string Type
+## ```string``` Type
 A string is simply a sequence of zero or more characters. The string type in C++ is robust and exhibits greater complexity than simple data types. Beyond offering the necessary storage space for strings, it encompasses a range of operations for string manipulation. 
 
 -In C++, you will find strings inside quotation marks. 
@@ -240,9 +240,9 @@ C++ programming involves a particular and concise set of operations, and the cru
 
 -An example would be #include <iostream>.
 
-### namespace and Using cin and cout in a Program
+### ```namespace``` and Using ```cin``` and ```cout``` in a Program
 
-### Using the string Data Type in a Program
+### Using the ```string``` Data Type in a Program
 
 ### Review Questions
 
