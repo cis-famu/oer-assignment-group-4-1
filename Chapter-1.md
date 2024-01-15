@@ -178,8 +178,26 @@ Syntax for assignment statement: variable = expression;
 * The value is designated to the variable on the left side.
 
 ###  Saving and Using the Value of an Expression
+Saving the value of an expression gives you the ability to use the value alone without having to use the entire expression.
+There are three steps to saving the value of an expression.
+1. Choose the correct data type and declare a variable.
+2. Assign the value of the expression of the variable that was assigned.
+3. Wherever the value is needed use the variable that was declared.
 
 ### Declaring and Initializing Variables
+In C++ when declaring a variable it does not always automatically initialize it.
+* Therefore you must initialize it manually because the computer does not warn us that the proper value is not assigned.
+* This is an example of a statement that is declared and initialized seperately:
+```cpp
+int num1, num2;
+char character;
+double decimalNumber;
+
+num1 = 25
+num2 = 8
+character = '@';
+decimalNumber = 7.9;
+```
 
 ### Input (Read) Statement
 
