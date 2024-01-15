@@ -204,8 +204,10 @@ int num1 = 25, num2 = 8;
 char character = '@';
 double decimalNumber = 7.9;
 ```
+* It is based on the programmer's preference or the classification of the program that determines whether or not the variables are initialized during their declaration.
 
 ### Input (Read) Statement
+
 
 ### Variable Initialization
 
