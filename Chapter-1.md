@@ -32,8 +32,8 @@ Two types of comments: single-line and multiple-line comments
 ### Special Symbols
 Token: smallest individual unit of a program
  - Divided into special symbols, word symbols and identifiers
-    - Mathematical symbols (+, -, *, /)
-    - English grammar (. , ; , ?, ,)
+    - Mathematical symbols (+), (-), (*), (/)
+    - English grammar (.), (;), (?), (,)
     - Tokens: nothing can go in between these characters (<=, !=, ==, >=)
 
 ### Recieved Words (Keywords)
