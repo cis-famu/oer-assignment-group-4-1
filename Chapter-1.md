@@ -281,6 +281,64 @@ C++ programming involves a particular and concise set of operations, and the cru
 ## Chapter Summary
 
 ## Key Terms
+1. Computer Program
+2. Programming
+3. Function
+4. Predefined
+5. Programming Language
+6. Syntax Rules
+7. Semantic Rules
+8. Token
+9. Keywords
+10. Identifiers
+11. Data Types
+12. Integral
+13. Floating Point
+14. Enumeration
+15. Collating Sequence
+16. Floating Point Notation
+17. Float, Double
+18. Precision
+19. Double Precision
+20. Arithemtic Expressions
+21. Operands
+22. Unary Operators
+23. Binary Operators
+24. Associativity
+25. Character Arithmetic
+26. Integral expressions
+27. Floating-point (decimal) expressions
+28. Mixed expressions
+29. Implicit type coercion
+30. Cast operator
+31. String
+32. Null
+33. Named Constant
+34. Variable
+35. Simple
+36. Initialized
+37. Assignment operator
+38. Walk-through
+39. Input (read)
+40. Increment Operators
+41. Decrement Operators
+42. Pre-increment
+43. Post-increment
+44. Pre-decrement
+45. Post-decrement
+46. Output Statement
+47. Preprocessor
+48. Source code
+49. Source code file
+50. Heading
+51. Declaration statements
+52. Executable statements
+53. Statement Terminator
+54. Semantics
+55. Self documenting
+56. Run-together word
+57. Prompt lines
+58. Compound assignment statements
 
 ## Programming Exercises
 
