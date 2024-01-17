@@ -94,6 +94,17 @@ Precision: maximum number of significant digits
 ### Review Questions
 
 ## Variables
+We use variables to inform the compiler of the data that will be used in terms of our data types. When we declare a variable we give a statement specifying the data type and the name of the variable. 
+
+
+-After you declare a variable it is important that you initialize it.
+
+
+For example- 
+
+int = y
+y = 10
+
 
 ### Review Questions
 
