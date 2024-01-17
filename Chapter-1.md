@@ -121,7 +121,12 @@ Expressions are fundamental in C++. Expressions allow you to manipulate data and
 - Example (a+b)-4
 
 ### Mixed Expressions
+An expression that contains both floating-point numbers and integers is known as a mixed expression. It's important to note that there are rules when evaluating mixed expressions.
 
+1.) The rule of precedence always applies when evaluating mixed expressions. Multiplication, division, and modulus operators must be evaluated before addition and subtraction.
+2.) If an operator has both integer and floating-point, the result must be in floating-point form.
+
+-An example of a mixed expression: 4 * 3 + 7 / 5 - 25.5 = -12.5
 ### Review Questions
 
 ## Type Conversion (Casting)
