@@ -207,9 +207,9 @@ double decimalNumber = 7.9;
 * It is based on the programmer's preference or the classification of the program that determines whether or not the variables are initialized during their declaration.
 
 ### Input (Read) Statement
-
-
-### Variable Initialization
+In C++ when putting data into variables you use ```cin``` and the operator ">>".
+* The syntax for this is:
+```cin >> variable >> variable ...;```
 
 ### Review Questions
 
@@ -228,6 +228,10 @@ z is an int variable. If ++z is used in our expression, z will first be incremen
 ### Review Questions
 
 ## Output
+In C++ to display output onto the standard output device use ```cout``` and the operator "<<"
+* The syntax is:
+``` cout << expression or manipulator << expression or mainpulator...;```
+To use cin and cout in a program you have to include a specific header file. 
 
 ### Review Questions
 
