@@ -258,6 +258,33 @@ C++ programming involves a particular and concise set of operations, and the cru
 ### Review Questions
 
 ## Creating a C++ Program
+Creating a C++ program for beginners:
+
+A good compiler is required for creating and running a C++ program. The use of such a program will help you to create, edit, and run the code you wish to use. What is a compiler? A compiler interfaces the C++ coding with the computer by translating your code into machine language, allowing the computer to understand and interpret your instructions. 
+
+A well-known example of a simple code for beginners is the “Hello World” C++ program. This program is simple to run and use.
+
+Once you have your compiler and saved a new file as a C++ type with a .cpp file extension, begin the code on line 1 with the #include(space)<iostream>. Skip a line and begin with int(space)main() skip another space and place a right-facing bracket {. Skip two more spaces and begin with cout(space)<< “hello, world” <<(space)std::endl; after the endl; tag line skip to another line and type return(space)0;. For the last piece skip one more line and type a left-facing bracket }. This will conclude the code building part of the page, all that is left is to run the program through the compiler and the result should output “hello world”. Your code should look something like this: 
+
+
+
+
+```#include <iostream>
+Int main()
+{
+
+cout<< “hello world” << std::endl;
+	
+
+
+return 0;
+}```
+
+
+After running this program you should see “hello world”.
+
+
+
 
 ### Review Questions
 
