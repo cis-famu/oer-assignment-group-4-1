@@ -26,8 +26,16 @@ Identifies the author, date it was written, an explanation of the program and me
 Two types of comments: single-line and multiple-line comments
 -S.L. begin with / / and can be placed anywhere in the line
    - Anything after / / is ignored by the compiler
+ cout << “7 + 8 = “ << 7 + 8 << endl;
+putting in comments:
+cout << “7 + 8 = “ << 7 + 8 << endl; // prints: 7 + 8 = 15
 -M.L. are structured as / * and * /.
    - Anything in between these symbols are ignored by the compiler
+
+/*
+	You can include comments that can
+	occupy several lines. 
+ */
 
 ### Special Symbols
 Token: smallest individual unit of a program
@@ -71,6 +79,7 @@ Floating point: Deals with decimal numbers
 Enumeration: User-defined data type
 ‘int’ Data Type
 -Integers in mathematics
+(6728, -67, 0, 78, 36782)
   - Positive integers do not need a + sign in front
   - No commas within integers (i.e 36, 765 is seen as 36 and 765)
 ‘bool’ Data Type
@@ -78,7 +87,7 @@ Enumeration: User-defined data type
   -called the logical (Boolean) values 
 ‘char’ Data Type
 -Used to represent single characters (letters, number, and special symbols) on your keyboard
-  - enclose each character within single quotation marks (i.e ‘A’, ‘b’, ‘+’
+  - enclose each character within single quotation marks (i.e ‘A’, ‘b’, ‘+’)
 The most common character data sets are the American Standard Code for Information Interchange (ASCII) and Extended Binary-Coded Decimal Interchange Code (EBCDIC)
 - ASCII has 128 values, while the EBCDIC has 256 values and was created by IBM
 
@@ -151,9 +160,26 @@ An expression that contains both floating-point numbers and integers is known as
 ## Type Conversion (Casting)
 Implicit Type Coercion: A value of one data type is automatically changed to another data type
 To avoid implicit type coercion, C++ provides explicit type conversion through a ‘cast operator’- is called ‘type conversion’ or ‘type casting’
+static_cast<dataTypeName> (expression)
 - First, the expression is evaluated and then converted to value of the type specified by ‘dataTypeName’
 - When converting a floating-point (decimal) number to an integer using the cast operator, you simply drop the decimal part of the floating-point number.
-- *****(few examples for 2.6)******
+static_cast<int>(7.9) 7
+static_cast<int>(3.3) 3
+static_cast<double>(25) 25.0
+static_cast<double>(5 + 3) = static_cast<double>(8) = 8.0
+static_cast<double>(15) / 2 = 15.0 / 2
+			(because static_cast<double> (15) = 15.0)
+			= 15.0 / 2.0 = 7.5
+static_cast<double>(15/2)	= static_cast<double>(7) (because 15 / 2 = 7)
+				= 7.0
+static_cast<int>(7.8 +	
+static_cast<double>(15)/2)	= static_cast<int>(7.8 + 7.5)
+				= static_cast<int>(15.3)
+				= 15
+static_cast<int>(7.8 +	
+static_cast<double>(15/2))	= static_cast<int>(7.8 + 7.0)
+				= static_cast<int>(14.8)
+				= 14
 - You can also use cast operators to explicitly convert char data values into int data values and int data values into char data values.
 
 ### Review Questions
