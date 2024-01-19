@@ -54,6 +54,9 @@ Whitespaces include blacks, tabs, and newline characters
 - Used to separate special symbols, reserved words, and identifiers
 
 ### Review Questions
+1. As a reader, what comments are structured /* */ ?
+2. What are whitespaces used for?
+3. How can you tell if an identifier is illegal?
 
 ## Data Types
 C++ has three data type categories: Simple data type, Structures data type, and Pointers
@@ -92,6 +95,9 @@ Precision: maximum number of significant digits
 - Sometimes float values are called single precision, and values of type double are called double precision
 
 ### Review Questions
+1. What are the three categories for simple data types?
+2. How many values does the ASCII and EBCDIC have each?
+3. What is the definition of precision?
 
 ## Variables
 We use variables to inform the compiler of the data that will be used in terms of our data types. When we declare a variable we give a statement specifying the data type and the name of the variable. 
@@ -151,6 +157,9 @@ To avoid implicit type coercion, C++ provides explicit type conversion through a
 - You can also use cast operators to explicitly convert char data values into int data values and int data values into char data values.
 
 ### Review Questions
+1. To avoid implict type coercion, what does C++ provide to an explicit type conversion?
+2. What are some other ways you can use a cast operator?
+3. What is another title for 'cast operator'?
 
 ## ```string``` Type
 A string is simply a sequence of zero or more characters. The string type in C++ is robust and exhibits greater complexity than simple data types. Beyond offering the necessary storage space for strings, it encompasses a range of operations for string manipulation. 
