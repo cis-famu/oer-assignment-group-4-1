@@ -281,6 +281,33 @@ C++ programming involves a particular and concise set of operations, and the cru
 -An example would be #include <iostream>.
 
 ### ```namespace``` and Using ```cin``` and ```cout``` in a Program
+In C++, we can use namespaces to organize our codes into separate, smarter units. We can view namespaces as containers that hold identities (functions, variables, etc.) which makes sure they don't clash with other namespaces.
+
+
+For example,
+std::cout << "This is the example namespace print function." << std::endl;
+
+
+In C++, Cin and Cout are used for respective input and output operations.
+
+
+Cin is short for "Console Input". This allows the user to input data into the computer.
+
+
+In this example, we can get an integer input.
+
+
+std::cin >> number;
+
+
+Cout is short for "Console Output". We use Cout to display output onto the console. 
+
+
+In this example, we use cout to display "Hello, World".
+
+
+std::cout << "Hello, World!" << std::endl;
+
 
 ### Using the ```string``` Data Type in a Program
 
