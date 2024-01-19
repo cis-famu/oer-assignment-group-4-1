@@ -163,23 +163,6 @@ To avoid implicit type coercion, C++ provides explicit type conversion through a
 static_cast<dataTypeName> (expression)
 - First, the expression is evaluated and then converted to value of the type specified by ‘dataTypeName’
 - When converting a floating-point (decimal) number to an integer using the cast operator, you simply drop the decimal part of the floating-point number.
-static_cast<int>(7.9) 7
-static_cast<int>(3.3) 3
-static_cast<double>(25) 25.0
-static_cast<double>(5 + 3) = static_cast<double>(8) = 8.0
-static_cast<double>(15) / 2 = 15.0 / 2
-			(because static_cast<double> (15) = 15.0)
-			= 15.0 / 2.0 = 7.5
-static_cast<double>(15/2)	= static_cast<double>(7) (because 15 / 2 = 7)
-				= 7.0
-static_cast<int>(7.8 +	
-static_cast<double>(15)/2)	= static_cast<int>(7.8 + 7.5)
-				= static_cast<int>(15.3)
-				= 15
-static_cast<int>(7.8 +	
-static_cast<double>(15/2))	= static_cast<int>(7.8 + 7.0)
-				= static_cast<int>(14.8)
-				= 14
 - You can also use cast operators to explicitly convert char data values into int data values and int data values into char data values.
 
 ### Review Questions
