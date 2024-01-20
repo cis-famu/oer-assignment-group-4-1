@@ -350,22 +350,37 @@ After running this program you should see “hello world”.
 ### Review Questions
 
 ## Program Style and Form
-
+An agreed-upon form of style helps other programmers to understand and decipher code that is written by other programmers. The styles of C++ include the LLVM Coding Standards, ISO C++ Core Guidelines, Microsoft C++ Coding Standards, Airbnb C++ Style Guide, Qt Coding Style, Mozilla C++ Portability Guide, BOOST C++ Coding Standards, Embedded C++ Coding Standards, and the Your Team/Project's Custom Style. The style and forms of standards are dependent on the project and scope of the work being produced. 
 ### Syntax
 
 ### Use of Blanks
+Blanks allow for the separation of numbers and words from symbols for a clearer understanding. Blanks should not be put into identifiers or reserved words like nullptr, operator, or, or_eq, private, protected, public, register, reinterpret_cast, requires, etc.
+
+
 
 ### Use of Semicolons, Brackets, and Commas
+Semicolons terminate statements and or lines an example of this is the std::endl; or the return 0;. Curly brackets enclose the main body of a C++ program. Regular brackets “()” separate certain functions from the rest of the code and help determine the accuracy of mathematical statements. An example of this is the statement 3 + 8 * 9 this statement reads entirely different when it's written as (3 + 8) * 9. Commas can separate items in an initializer of a constructor, declarations in a struct or class, different statements in a single line as well as a myriad of other uses. 
+
+
 
 ### Semantics
+Semantics in C++ and language are used to determine the meanings of statements coded in C++, semantics can change the meaning of certain C++ statements depending on what is being phrased in the code. An example can be made with the commands “double” and “float” being used in a program that requires an accurate numerical value. Float numbers will always be less precise than numbers using the double command and could change the output accuracy of a program using these commands.
 
 ### Naming Identifiers
+Naming identifiers can be very important to the readability and clarity of C++ statements. If my named identifier is coded as studentsperteacher it may be less understandable than an identifier named students_per_teacher. This can give more clarity to the author of the code as well as those reading such an identifier in the future.
 
 ### Prompt Lines
+Prompt lines help the user of the program understand what actions are to be taken. An example of a prompt line could be “Please enter today's temperature, integers only then press enter”. This prompt line tells the user to enter an integer and press the enter key, thereby giving the user an inkling of what the program needs to do to interact with the program legally. Without a command prompt, the user wouldn’t understand how to interact with the program.
 
 ### Documentation
+Documentation in C++ refers to the notes a good coder will leave behind within the code. Leaving instructions or reasonings behind withing the code will help to clarify what the code is doing or being used for. “//This phrase most often will appear green in the program.” Anything written after the // will not be used for program instructions and its only purpose will be to inform and label parts of the code visible to the author and those viewing the code directly and serve no other purpose.
 
 ### Form and Style
+This follows how a C++ code is spaced and formatted. Like a run-on sentence in English, the spelling may be correct but following what the coder is writing may be more difficult. Indentations can identify which parts of the code do what as well as blank spaces and skipping lines. An IDE can help with structuring code and making it easier to follow.
+
+
+
+
 
 ### Review Questions
 
