@@ -386,6 +386,7 @@ This follows how a C++ code is spaced and formatted. Like a run-on sentence in E
 
 How can the use of blanks improve the readability of code in C++?
 What is a prompt line and what does it do?
+What is one way to improve the naming identifier "milesperhour"?
 
 ## Chapter Summary
 
