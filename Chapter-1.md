@@ -384,6 +384,8 @@ This follows how a C++ code is spaced and formatted. Like a run-on sentence in E
 
 ### Review Questions
 
+How can the use of blanks improve the readability of code in C++?
+
 ## Chapter Summary
 
 ## Key Terms
