@@ -156,7 +156,10 @@ An expression that contains both floating-point numbers and integers is known as
 
 -An example of a mixed expression: 4 * 3 + 7 / 5 - 25.5 = -12.5
 ### Review Questions
+1.) What is the first rule when evaluating a mixed expression?
 
+
+2.) What is the order of precedence?
 ## Type Conversion (Casting)
 Implicit Type Coercion: A value of one data type is automatically changed to another data type
 To avoid implicit type coercion, C++ provides explicit type conversion through a ‘cast operator’- is called ‘type conversion’ or ‘type casting’
