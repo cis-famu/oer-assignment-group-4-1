@@ -122,6 +122,10 @@ y = 10
 
 
 ### Review Questions
+1.) What are variables used for?
+
+
+2.) What do you do after you declare a variable?
 
 ## Arithmetic Operators, Operator Precedence, and Expressions
 Arithmetic operators in C++ include + (Addition), - (Subtration), *(Multiplication), / (Division) and % (modulus).
