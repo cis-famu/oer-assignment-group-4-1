@@ -455,4 +455,4 @@ This follows how a C++ code is spaced and formatted. Like a run-on sentence in E
 ## Programming Exercises
 
 ## References
-  
+  MindTap - Cengage Learning, ng.cengage.com/static/nb/ui/evo/index.html?snapshotId=3814784. Accessed 23 Jan. 2024. 
