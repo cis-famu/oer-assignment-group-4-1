@@ -472,3 +472,5 @@ Priya, U. (2023, December 27). Use of Semicolon in Programming languages. Coding
 Nath, S. (2020, February 26). How to write the first C++ program?. Tutorialspoint. https://www.tutorialspoint.com/How-to-write-the-first-cplusplus-program 
 
 Goyal, S. (2023, April 17). The history of C++ (with timeline infographic) // unstop. The History Of C++ (With Timeline Infographic) // Unstop. https://unstop.com/blog/history-of-cpp 
+
+Hock-Chuan, C. (2013, June). C++ programming language. C++ Basics - C++ Programming Tutorial. https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp1_basics.html 
