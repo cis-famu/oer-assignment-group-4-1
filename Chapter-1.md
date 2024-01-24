@@ -473,4 +473,6 @@ Nath, S. (2020, February 26). How to write the first C++ program?. Tutorialspoin
 
 Goyal, S. (2023, April 17). The history of C++ (with timeline infographic) // unstop. The History Of C++ (With Timeline Infographic) // Unstop. https://unstop.com/blog/history-of-cpp 
 
-Hock-Chuan, C. (2013, June). C++ programming language. C++ Basics - C++ Programming Tutorial. https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp1_basics.html 
+Hock-Chuan, C. (2013, June). C++ programming language. C++ Basics - C++ Programming Tutorial. https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp1_basics.html
+
+Chatgpt - openai聊天. (2024, January 18). https://chat.openai.com/auth/login 
