@@ -1,5 +1,8 @@
 # Introduction to C++ Programming
 
+	C++ is an extraordinary means for the human-to-machine interface. The method of coding for C++ was developed in 1979 by a man named Bjarne Stroustrup and is an extension of the C language developed at Bell Laboratories. This versatile language can be found not only in just computers but drones as well as robots. Understanding the C++ language is paramount today for those who will be working with the most modern technologies. A good foundational understanding of the manipulation and construction of this code can push future technicians a long way and help to increase the language’s boundaries into the future of all cutting-edge technology. In general, the basics of C++ can go a long way and will be used from the beginning to the end of a programmer's career. This section delineates those basics and gives simple explanations of how they work. 
+
+
 ## Objectives
 Upon finishing this chapter, students will have the capability to:
 1. Identify basic components of a C++ program, including functions, special symbols, and identifiers
