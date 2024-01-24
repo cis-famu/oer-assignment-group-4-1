@@ -258,6 +258,40 @@ In C++ when putting data into variables you use ```cin``` and the operator ">>".
 ```cin >> variable >> variable ...;```
 
 ### Review Questions
+Question 1.
+When allocating memory in C++, what is a crucial aspect to keep in mind?
+
+A. The value assigned to the memory allocation.
+
+B. The size of the allocated memory.
+
+C. Keeping track of where the data is stored and the name under which it is stored.
+
+D. Using uppercase letters for variable names.
+
+Question 2.
+Which statement correctly describes storing a fixed data type in C++?
+
+A. The syntax involves using const dataType identifier = value; and assigns a unique name to the statement.
+
+B. The syntax involves using dataType identifier, identifier, ...; and allows the value to change during execution.
+
+C. Constants must always be declared and initialized separately in C++.
+
+D. Allocating memory for variables involves using the operator ">>".
+
+Question 3.
+What is the purpose of the assignment statement in C++?
+
+A. To declare a variable.
+
+B. To initialize a variable.
+
+C. To allocate memory for constants.
+
+D. To assign a value to a variable based on an expression.
+
+Answers: 1. C 2. A 3. D.
 
 ## Increment and Decrement Operators
 The increment and decrement are valuable tools in C++. By using ++, we can quickly increase the value of a variable by one and can use - - to decrease the value of a variable by one.
@@ -280,6 +314,40 @@ In C++ to display output onto the standard output device use ```cout``` and the 
 To use cin and cout in a program you have to include a specific header file. 
 
 ### Review Questions
+Question 1.
+How do you display output onto the standard output device in C++ using cout?
+
+A. cout >> expression or manipulator >> expression or manipulator...;
+
+B. cout << expression or manipulator << expression or manipulator...;
+
+C. cin << expression or manipulator << expression or manipulator...;
+
+D. cin >> expression or manipulator >> expression or manipulator...;
+
+Question 2.
+What is the correct syntax for using cout to display multiple expressions or manipulators in C++?
+
+A. cout = expression or manipulator = expression or manipulator...;
+
+B. cout -> expression or manipulator -> expression or manipulator...;
+
+C. cout << expression or manipulator << expression or manipulator...;
+
+D. cout :: expression or manipulator :: expression or manipulator...;
+
+Question 3.
+Which header file needs to be included to use cin and cout in a C++ program?
+
+A. <iostream>
+
+B. <stdio.h>
+
+C. <math.h>
+
+D. <cstdlib>
+
+Answers: 1. B 2. C 3. A.
 
 ## Preprocessor Directives
 C++ programming involves a particular and concise set of operations, and the crucial functions and symbols required for running a C++ program are encapsulated within different libraries. Each library is identified by a name and associated with a header file. Preprocessor directives play a critical role and are executed by the preprocessor program.
@@ -403,64 +471,64 @@ This follows how a C++ code is spaced and formatted. Like a run-on sentence in E
 ## Chapter Summary
 
 ## Key Terms
-1. Computer Program
-2. Programming
-3. Function
-4. Predefined
-5. Programming Language
-6. Syntax Rules
-7. Semantic Rules
-8. Token
-9. Keywords
-10. Identifiers
-11. Data Types
-12. Integral
-13. Floating Point
-14. Enumeration
-15. Collating Sequence
-16. Floating Point Notation
-17. Float, Double
-18. Precision
-19. Double Precision
-20. Arithemtic Expressions
-21. Operands
-22. Unary Operators
-23. Binary Operators
-24. Associativity
-25. Character Arithmetic
-26. Integral expressions
-27. Floating-point (decimal) expressions
-28. Mixed expressions
-29. Implicit type coercion
-30. Cast operator
-31. String
-32. Null
-33. Named Constant
-34. Variable
-35. Simple
-36. Initialized
-37. Assignment operator
-38. Walk-through
-39. Input (read)
-40. Increment Operators
-41. Decrement Operators
-42. Pre-increment
-43. Post-increment
-44. Pre-decrement
-45. Post-decrement
-46. Output Statement
-47. Preprocessor
-48. Source code
-49. Source code file
-50. Heading
-51. Declaration statements
-52. Executable statements
-53. Statement Terminator
-54. Semantics
-55. Self documenting
-56. Run-together word
-57. Prompt lines
-58. Compound assignment statements
+1. Computer Program- a sequence of statements whose objective is to accomplish a task.
+2. Programming- the process of planning and creating a program.
+3. Function- a collection of statements; when activated, or executed, it accomplishes something.
+4. Predefined- a function that is already written and provided as part of the system.
+5. Programming Language- a set of rules, symbols, and special words.
+6. Syntax Rules- tell you which statements (instructions) are legal or valid.
+7. Semantic Rules- determine the meaning of the instructions.
+8. Token- The smallest individual unit of a program written in any language.
+9. Keywords- a reserved word.
+10. Identifiers- a C++ identifier consists of letters, digits, and the underscore character (_); it must begin with a letter or underscore.
+11. Data Types- a set of values together with a set of operations.
+12. Integral- a data type that deals with integers, or numbers, without a decimal part.
+13. Floating Point- a data type that deals with decimal numbers.
+14. Enumeration- a user-defined data type.
+15. Collating Sequence- a predefined ordering for the characters in a set.
+16. Floating Point Notation- a form of scientific notation used to represent real numbers.
+17. Float- The data type float is used in C++ to represent any decimal number between -3.4 * 10^38 and 3.4 * 10^38 . The memory allocated for a value of the float data type is four bytes.
+18. Double- The data type double is used in C++ to represent any decimal number between -1.7 * 10^308 and 1.7 * 10^308. The memory allocated for a value of the double data type is eight bytes.
+19. Precision- the maximum number of significant digits.
+20. Double Precision- values of type double.
+21. Arithemtic Expressions- an expression constructed using arithmetic operators and numbers.
+22. Operands- numbers appearing in an arithmetic expression.
+23. Unary Operators- An operator that has only one operand.
+24. Binary Operators- an operator that has two operands.
+25. Associativity- the associativity of arithmetic operators is said to be from left to right.
+26. Character Arithmetic- arithmetic operation on char data.
+27. Integral expressions- an expression in which all operands are integers.
+28. Floating-point (decimal) expressions- an expression in which all operands in the expression are floating-point numbers.
+29. Mixed expressions- an expression that has operands of different data types.
+30. Implicit type coercion- when a value of one data type is automatically changed to another data type.
+31. Cast operator- also known as type conversion or type casting - used to explicitly convert one data type to another data type.
+32. String- a sequence of zero or more characters.
+33. Null- a string containing no characters.
+34. Named Constant- a memory location whose content is not allowed to change during program execution.
+35. Variable- A memory location whose content may change during program execution.
+36. Simple- a data type where the variable or named constant of that type can store only one value at a time.
+37. Initialized- the first time a value is placed in the variable.
+38. Assignment operator- =; assigns whatever is on the right side to the variable on the left side.
+39. Walk-through- Tracing values through a sequence.
+40. Input (read)- a statement that places data into variables using cin and >>.
+41. Increment Operators- ++; increases the value of a variable by 1.
+42. Decrement Operators- --; decreases the value of a variable by 1.
+43. Pre-increment- has the syntax ++variable.
+44. Post-increment- has the syntax variable++.
+45. Pre-decrement- has the syntax --variable.
+46. Post-decrement- has the syntax variable--.
+47. Output Statement- an output on the standard output device via cout and <<.
+48. Preprocessor- a program that carries out preprocessor directives.
+49. Source code- the preprocessor directives and the program statements constitute the C++ source code.
+50. Source code file- The file containing the source code.
+51. Heading- The first line of the function main.
+52. Declaration statements- statements that are used to declare things, such as variables.
+53. Executable statements- statements that perform calculations, manipulate data, create output, accept input, and so on.
+54. Statement Terminator- The semicolon.
+55. Semantics- The set of rules that gives meaning to a language.
+56. Self documenting- The identifiers in the second set of statements.
+57. Prompt lines- executable statements that inform the user what to do.
+58. Compound assignment statements- statements that are used to write simple assignment statements in a more concise notation.
 
 ## Programming Exercises
 
