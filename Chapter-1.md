@@ -470,3 +470,5 @@ This follows how a C++ code is spaced and formatted. Like a run-on sentence in E
 Priya, U. (2023, December 27). Use of Semicolon in Programming languages. Coding ninjas studio. https://www.codingninjas.com/studio/library/use-of-semicolon-in-programming-languages 
 
 Nath, S. (2020, February 26). How to write the first C++ program?. Tutorialspoint. https://www.tutorialspoint.com/How-to-write-the-first-cplusplus-program 
+
+Goyal, S. (2023, April 17). The history of C++ (with timeline infographic) // unstop. The History Of C++ (With Timeline Infographic) // Unstop. https://unstop.com/blog/history-of-cpp 
