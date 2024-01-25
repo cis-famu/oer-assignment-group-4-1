@@ -553,7 +553,16 @@ This follows how a C++ code is spaced and formatted. Like a run-on sentence in E
 58. Compound assignment statements- statements that are used to write simple assignment statements in a more concise notation.
 
 ## Programming Exercises
+1.) Write a C++ program that prints "Hello, World!" to the console.
 
+
+2.) Write a program that takes two numbers as input and prints their sum in the console.
+
+
+3.) Create a program that takes two numbers as input and outputs their sum.
+
+
+4.) Create a program that converts Celsius to Fahrenheit and vice versa.
 ## References
   MindTap - Cengage Learning, ng.cengage.com/static/nb/ui/evo/index.html?snapshotId=3814784. Accessed 23 Jan. 2024. 
 
