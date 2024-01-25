@@ -189,6 +189,7 @@ A string is simply a sequence of zero or more characters. The string type in C++
 ### Review Questions
 1.) What do you put inside quotations in a string?
 
+
 2.) What is the difference between a string and an equation?
 
 
@@ -311,6 +312,10 @@ The difference between having the increment or decrement come before or after co
 z is an int variable. If ++z is used in our expression, z will first be incremented by one, and then its new value will be used. However, if z++ is used in our expression, first the value of z will be used, followed by an increment of 1.
 
 ### Review Questions
+How much does the increment operator increase a value?
+
+
+What is the difference between the increment and the decrement operators?
 
 ## Output
 In C++ to display output onto the standard output device use ```cout``` and the operator "<<"
