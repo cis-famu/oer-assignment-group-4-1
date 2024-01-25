@@ -491,6 +491,9 @@ This follows how a C++ code is spaced and formatted. Like a run-on sentence in E
 -What is one way to improve the naming identifier "milesperhour"?
 
 ## Chapter Summary
+Coding and the rules therein are not difficult, it can open many doors to those who are attentive and willing to learn. C++ is the key to all present and future technology. This guide will help in enumerable ways and describe the basic principles that have served coders since 1979.  From #include <iostream> to return 0;} I hope this guide helps for everything else in between.
+
+
 
 ## Key Terms
 1. Computer Program- a sequence of statements whose objective is to accomplish a task.
