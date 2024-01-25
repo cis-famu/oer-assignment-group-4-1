@@ -398,8 +398,20 @@ std::cout << "Hello, World!" << std::endl;
 
 
 ### Using the ```string``` Data Type in a Program
+In C++ the string type is used to represent sequences of characters. The string type is more flexible than your traditional character arrays.
 
+
+-You must include the string library if you are to use strings in your code. "Include<string>".
+
+
+For example:
+String Firstname = Ben
 ### Review Questions
+1.) Why do we use the string data type in C++?
+
+
+2.) What library is required to use the string data type? 
+
 
 ## Creating a C++ Program
 Creating a C++ program for beginners:
