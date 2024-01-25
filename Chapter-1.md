@@ -187,6 +187,11 @@ A string is simply a sequence of zero or more characters. The string type in C++
 
 -For example, “Example” is how you would see a string in C++. If you find a string with no characters, that is an “empty’ or “null” string. 
 ### Review Questions
+1.) What do you put inside quotations in a string?
+
+2.) What is the difference between a string and an equation?
+
+
 
 ## Assignment Statements, Input Statements
 The principal objective of a C++ program is to execute calculations and manipulate data. Remember that data must be loaded into the main memory before manipulation. In this segment you will learn how to put data into the computer's memory. The process for storing data includes these two steps:
