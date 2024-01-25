@@ -580,3 +580,5 @@ Hock-Chuan, C. (2013, June). C++ programming language. C++ Basics - C++ Programm
 Chatgpt - openai聊天. (2024, January 18). https://chat.openai.com/auth/login
 
 Mark K. Jowett, Ph. D. (n.d.). Introduction. Basic C++ Elements. https://www.cs.fsu.edu/~cop3014p/lectures/ch2/index.html 
+
+This chapter's editor was Briana Harvey.
