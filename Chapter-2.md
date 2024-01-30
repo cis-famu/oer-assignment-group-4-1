@@ -1,6 +1,16 @@
 # Chapter 2 Input/Output
 
 ## Objectives
+Upon completion of this chapter, students will be able to:
+
+1. Identify input and output streams
+2. Read data from the standard input device
+3. Define the use predefined functions in a program
+4. Describe input stream functions get, ignore, putback, and peek
+5. Write data to the standard output device
+6. Use manipulators in a program to format output
+7. Perform input and output operations using the string data type
+8. Distinguish how to use debug logic errors
 
 ## Introduction
 
