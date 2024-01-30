@@ -24,7 +24,7 @@ Upon completion of this chapter, students will be able to:
 In Chapter 1 we learned that a function is a block of code that only runs when called.
   * an example of a function is ```main``` this function is used to execute autimatically when you run a program.
   * another example of a function is ```pow``` which is the power function it is used to calculate $`x^y`$ in a program.
-      * you would use ```pow``` like this pow(2.0, 3.0) = $`2.0^3.^0`$ = 8.0.
+      * you would use ```pow``` like this pow(2.0, 3.0) = $`2.0^3^.^0`$ = 8.0.
       * The numbers x and y that are used in this function are called arguments or parameters of a function.
       * The parameters are 2.0 and 3.0
     * an expression such as pow (2.0, 3.0) is called a function call.
