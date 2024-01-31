@@ -28,7 +28,7 @@ In Chapter 1 we learned that a function is a block of code that only runs when c
       * The numbers x and y that are used in this function are called arguments or parameters of a function.
       * The parameters are 2.0 and 3.0
   * an expression such as pow (2.0, 3.0) is called a function call.
-        * a function call in C++ is an expression containing the function name followed by the function call operator, ().
+    * a function call in C++ is an expression containing the function name followed by the function call operator, ().
 
 ### cin and get Function
 
