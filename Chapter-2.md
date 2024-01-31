@@ -31,6 +31,10 @@ In Chapter 1 we learned that a function is a block of code that only runs when c
     * a function call in C++ is an expression containing the function name followed by the function call operator, ().
 
 ### cin and get Function
+The variable ```cin``` is used to get user input.
+ * cin is predefined to read data from the program with the extraction operator (>>)
+The get function is used to read a string or text line it includes the whitespaces.
+ *
 
 ### cin and ignore Function
 
