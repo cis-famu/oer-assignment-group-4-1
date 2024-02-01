@@ -30,6 +30,9 @@ cin >> hoursWorked
 ….
 
 ### Review Questions
+1. True or False. The operator >> skips all whitespace.
+2. What is one input stream variable that is used with the operator >>?
+3. True or False. The operator >> does not read digits of numbers, including the decimal point for floating-point variables.
 
 ## Using Predefined Functions in a program
 In Chapter 1 we learned that a function is a block of code that only runs when called.
@@ -95,6 +98,9 @@ ex. i fx is an ‘int; variable, this statement ‘cout << setw(5) << x << endl;
   -have to include, #include <iomanip> to use the manipulator
 
 ### Review Questions
+1 . What does the the output setw(n) do?
+2. Which manipulator controls the output of floating-point numbers?
+3. To disable the the fixed manipulator, what do you use?
 
 ## Additional Output Formatting Tools
 
