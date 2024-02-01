@@ -105,10 +105,28 @@ ex. i fx is an ‘int; variable, this statement ‘cout << setw(5) << x << endl;
 ## Additional Output Formatting Tools
 
 ### setfill Manipulator
+In terms of the setw manipulator, the requested number of columns is greater than the actual amount needed for the expression. Since the output
+is right justified, the unused columns on the left are left as blank spaces. Output stream variables can use the setfilll manipulator to fill the unused spaces.
+
+Ex.
+
+cout << setfill ('x') << setw (10);
 
 ### left and right Manipulators
+The left and right manipulators are used for the justification in C++, allowing for respective left and right formatting.
 
+
+-You can use the the unsetf function to disable these manipulators.
+
+Ex. 
+
+
+cout.width(6);   
+  cout << left << n << '\n'; 
 ### Review Questions
+1.) Why do we use the setfill manipulator?
+
+2.) What are left and right manipulators?
 
 ## Input/Output and the stringType
 
