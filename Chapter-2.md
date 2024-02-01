@@ -115,8 +115,68 @@ ex. i fx is an ‘int; variable, this statement ‘cout << setw(5) << x << endl;
 ### Review Questions
 
 ## Debugging: Understanding Logic Errors and Debugging with cout Statements
+There is a difference between syntax errors which are found by the compiler, and logical errors which are not usually detected by the compiler.
 
+
+-You can use cout statements to help you debug by printing key values and expressions.
+
+
+Ex. 
+
+
+#include <iostream>
+
+int main() {
+    int num1, num2;
+    
+    // Input
+    std::cout << "Enter the first number: ";
+    std::cin >> num1;
+    
+    std::cout << "Enter the second number: ";
+    std::cin >> num2;
+
+    // Calculation of average (with a logic error)
+    int average = num1 + num2 / 2;
+
+    // Output
+    std::cout << "The average is: " << average << std::endl;
+
+    return 0;
+}
+
+
+#include <iostream>
+
+int main() {
+    int num1, num2;
+    
+    // Input
+    std::cout << "Enter the first number: ";
+    std::cin >> num1;
+    
+    std::cout << "Enter the second number: ";
+    std::cin >> num2;
+
+    // Debugging cout statements
+    std::cout << "Debugging: num1 = " << num1 << ", num2 = " << num2 << std::endl;
+
+    // Calculation of average (with a logic error)
+    int average = num1 + num2 / 2;
+
+    // Debugging cout statement
+    std::cout << "Debugging: Incorrect average calculation = " << average << std::endl;
+
+    // Output
+    std::cout << "The average is: " << average << std::endl;
+
+    return 0;
+}
 ### Review Questions
+1.) What is the difference between a logical error and a syntax error?
+
+
+2.) How does the statement help us with debugging logical errors?
 
 ## File Input/Output
 
