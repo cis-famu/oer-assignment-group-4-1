@@ -24,9 +24,9 @@ The extraction operator >> is binary and thus takes two operands
 - Skips all whitespace characters
 - The left-side must be an input stream, like cin, and the right side is a variable
 General syntax: cin >> variable >> variable
-ex. cin >> payRate >> hoursWorked, there is no difference between the inputs
-cin >> payRate
-cin >> hoursWorked
+- ex. cin >> payRate >> hoursWorked, there is no difference between the inputs
+ - cin >> payRate
+ -  cin >> hoursWorked
 - The >> operator when reading the ‘char’ variable, it only finds and stores the next character
 - To read into an ‘int’ or ‘double’ variable, it only stops when a whitespace or a character other than a digit is found
 
