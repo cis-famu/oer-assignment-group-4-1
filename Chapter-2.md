@@ -14,6 +14,8 @@ Upon completion of this chapter, students will be able to:
 
 ## Introduction
 
+In this chapter, importance is placed on the manipulation of input/output data. Understanding how to debug a program as well as a multitude of other functions like reading and writing to and from other programs or data.
+
 ## I/O Streams and Standard I/O Devices
 Stream: a sequence of characters from the source to the destination
 - input (istream / cin): sequence of characters to an input device
