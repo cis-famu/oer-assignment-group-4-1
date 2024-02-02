@@ -164,6 +164,58 @@ cout.width(6);
 
 ## Input/Output and the stringType
 
+Input/output string and the string type-
+First things first, to use any string command remember to #include <string> so you can use the commands from the string library. A string is a group of characters, which could be letters numbers, or text. The input variable “cin” and the extraction operator “>>” can read a word with no spaces into a string variable the extraction operator can’t for example read both a first and last name in this scenario. If for example the name being entered is John Smith, only “John” will be extracted from the statement since there is a space between John and Smith.
+
+Example:
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(){
+
+string name;
+
+cout << "type your name: ";
+
+cin >> name;
+
+cout << name << endl;
+
+
+
+return 0;
+}
+
+This code allows the variable “name” to be assigned to what is typed into the prompt. This assignment of the typed characters into the name prompt will only accept the first unbroken line of characters typed and output the first string of characters. If there's a space for say, a last name entered, it will not be recognized. This is okay for simple data entry but for a total name containing spaces the code will need the getline function. In this new example, the getline function is used to recognize and output the full name with spaces.
+#include <iostream>
+#include <string>
+
+int main() {
+
+
+
+    std::string fullName;
+
+    std::cout << "Type your first and last name: ";
+    
+    std::getline(std::cin, fullName);
+
+    std::cout << fullName << std::endl;
+
+   
+   
+   
+    return 0;
+}
+
+ 
+Both the string and getline commands can be used to store any character information but have different capabilities, it is important to choose the most appropriate type for each individual situation.
+
+
+
 
 ### Review Questions
 
