@@ -203,6 +203,27 @@ int main() {
 ## Chapter Summary
 
 ## Key Terms
+1. Stream- 
+2. Input stream- 
+3. Output stream- 
+4. Common input- 
+5. Common output- 
+6. Input stream variables- 
+7. Output stream variables- 
+8. Stream variables- 
+9. Input failure- 
+10. istream member functions- 
+11. Stream member functions- 
+12. Predefined functions- 
+13. Arguments- 
+14. Function call- 
+15. Dot notation- 
+16. Member access operator- 
+17. Fail state- 
+18. Parameterized stream manipulators- 
+19. File- 
+20. File stream variables- 
+21. Opening the files- 
 
 ## Programming Exercises
 
