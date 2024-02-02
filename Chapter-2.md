@@ -294,5 +294,12 @@ Answers. 1. A, 2. A, 3. A.
 21. Opening the files- associating a file stream variable with an input/output source.
 
 ## Programming Exercises
+1.)Create a C++ program that gets the user's name as input using cin and then outputs a welcoming greeting. Please use the cout statement to display the greeting you create.
+
+
+2.)Write a C++ program that defines a function called multiply, which would take two integer parameters, multiply them, and returns the result. In the main function, take two integers as input from the user, then call the multiply function, and print the result.
+
+
+3.) Explain what a stream is and provide examples of input and output streams.
 
 ## References
