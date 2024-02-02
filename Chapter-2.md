@@ -91,6 +91,10 @@ Answers- 1. B, 2. C, 3. B.
 
 ### The clear Function
 
+The clear function – The syntax for the command is istreamVar.clear(); 
+Allows the input to resume functionality after unrecognized characters are used in an input stream. If the prompts receive characters that are not integers or expected input, this allows the program to continue functioning without error codes. Using the clear function in conjunction will allow the program to restore to a completely new input stream.   
+
+
 ### Review Questions
 
 ## Output and Formatting Output
@@ -158,6 +162,7 @@ cout.width(6);
 2.) What are left and right manipulators?
 
 ## Input/Output and the stringType
+
 
 ### Review Questions
 
