@@ -48,15 +48,44 @@ In Chapter 1 we learned that a function is a block of code that only runs when c
 The variable ```cin``` is used to get user input.
  * cin is predefined to read data from the program with the extraction operator (>>)
 The get function is used to read a string or text line it includes the whitespaces.
- *
+ * when you use the variable cin and the function get together the syntax is ```cin.get(..);```
 
 ### cin and ignore Function
+When wanting to process only a portion of data use the stream function ```ignore```.
+ * the syntax for using the function ignore is ```cin.ignore(...);```.
+   You can set how many character you want to be ignore in a line using this function.
 
 ### The putback and peek Functions
+The stream function ```putback``` lets you put the last character taken from the inout stream by the get function back into the input stream.
+ * the syntax for the putback function is ```istreamVar.putback(..);```.
+The stream function peek looks into the input stream and lets you know what the next character is without getting rid of it from the input stream.
+ * the syntax for the peek function is ```ch = istreamVar.peek();```.
 
 ### The Dot Notation between I/O Stream Variables and I/O Functions: A Precaution
+It is important to keep the dot in between identifiers to prevent error codes.
 
 ### Review Questions
+1. What is a function in programming, and how is it utilized?
+
+     A) A variable that stores user input.
+     B) A block of code that runs automatically when a program starts.
+     C) A function is not used in programming.
+     D) A loop that iterates through code.
+
+2. Explain the role of cin and the get function in C++ for user input.
+
+     A) cin is used for string manipulation, and get is for numerical input.
+     B) cin is for output, and get is for input.
+     C) cin is a variable for user input, and get reads a string or text line with whitespaces.
+     D) cin and get cannot be used together.
+
+3. Describe the functionalities of the putback and peek functions in I/O streams. 
+
+     A) putback stores the last character, and peek removes the next character.
+     B) putback puts the last character back into the stream, and peek checks the next character without removing it.
+     C) Both putback and peek remove characters from the stream.
+     D) putback is used for user input, and peek is for output.
+Answers- 1. B, 2. C, 3. B.
 
 ## Input Failure
 
@@ -197,33 +226,66 @@ int main() {
 2.) How does the statement help us with debugging logical errors?
 
 ## File Input/Output
+To obtain data from other input devices you can use the file I/O to read data or write data to a file.
+ * to use this you have to include the header ```#include <fstream>```
+ * under this header are two data types called ```ifstream``` and ```ofstream```.
+ * ```ifstream``` means input file stream.
+ * ```ofstream``` means output file stream.
+ * You have to declare variables called file stream variables.
+ * Then you must associate these file variables with the proper I/O sources.
+ * Finally close the files.
+ * The proper syntax to declare the I/O sources is ```ifstream inData; ofstream outData;```
+ * The proper syntax to open the files is ```inData.open(".."); outData.open("..");```
+ * The proper syntax to close the files is ```inData.close(); outData.close();```
 
 ### Review Questions
+1. What is the purpose of the #include <fstream> statement in C++?
+
+      A) It includes a fundamental file management library.
+      B) It is used for numerical calculations.
+      C) It is only necessary for graphical interfaces.
+      D) It is not relevant to file I/O operations.
+  
+2. Which data types are associated with input and output file streams in C++ file I/O operations?
+
+      A) ```ifstream``` and ```ofstream```
+      B) ```int``` and ```float```
+      C) ```string``` and ```char```
+      D) ```cin``` and ```cout```
+
+3. What is the correct sequence of steps for performing file I/O in C++, from declaring file stream variables to closing the files?
+
+      A) Declare, open, associate, close
+      B) Open, declare, associate, close
+      C) Close, declare, open, associate
+      D) Declare, associate, open, close
+   
+Answers. 1. A, 2. A, 3. A.
 
 ## Chapter Summary
 
 ## Key Terms
-1. Stream- 
-2. Input stream- 
-3. Output stream- 
-4. Common input- 
-5. Common output- 
-6. Input stream variables- 
-7. Output stream variables- 
-8. Stream variables- 
-9. Input failure- 
-10. istream member functions- 
-11. Stream member functions- 
-12. Predefined functions- 
-13. Arguments- 
-14. Function call- 
-15. Dot notation- 
-16. Member access operator- 
-17. Fail state- 
-18. Parameterized stream manipulators- 
-19. File- 
-20. File stream variables- 
-21. Opening the files- 
+1. Stream- a sequence of characters from the source to the destination.
+2. Input stream- a sequence of characters from an input device to the computer.
+3. Output stream- a sequence of characters from the computer to an output device.
+4. Common input- the variable cin is named after this.
+5. Common output- the variable cout is named after this.
+6. Input stream variables- variables of the type istream.
+7. Output stream variables- variables of the type ostream.
+8. Stream variables- either an input stream variable or an output stream variable.
+9. Input failure- a situation in which a program either fails to compile, or yields incorrect results, because the input data does not match the corresponding variables in the program.
+10. istream member functions- functions that are associated with the data type istream.
+11. Stream member functions- I/O functions such as get.
+12. Predefined functions- functions that are already defined in C++.
+13. Arguments- values that are passed in a function call in the parentheses after the name of the function.
+14. Function call- an expression that transfers control from the main function to the first statement in the body of the function, such as pow(2,3).
+15. Dot notation- notation in which a dot separates the input stream variable name from the member, or function name.
+16. Member access operator- the dot operator in C++.
+17. Fail state- the state an input stream enters after input failure in which all further I/O statements using that stream are ignored.
+18. Parameterized stream manipulators- manipulators with parameters.
+19. File- an area in secondary storage used to hold information.
+20. File stream variables- user-declared variables including ifstream and ofstream used for input and output.
+21. Opening the files- associating a file stream variable with an input/output source.
 
 ## Programming Exercises
 
