@@ -219,6 +219,13 @@ Both the string and getline commands can be used to store any character informat
 
 ### Review Questions
 
+What library is necessary for the use of the string or getline functions? 
+
+What type of information can be manipulated with the string and getline functions?
+
+True/false – String can store information with spaces included?
+
+
 ## Debugging: Understanding Logic Errors and Debugging with cout Statements
 There is a difference between syntax errors which are found by the compiler, and logical errors which are not usually detected by the compiler.
 
