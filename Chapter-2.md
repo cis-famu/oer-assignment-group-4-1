@@ -94,17 +94,21 @@ Answers- 1. B, 2. C, 3. B.
 
 ### The clear Function
 
-The clear function – A .clear() command removes all previously assigned values from a set or a string. This will destroy every value and the set container will carry no values or 0, this can allow for the creation of a new set with entirely new variables. The .clear() function can clear the error state of a stream of input output operations, and allow the program to bypass the error state. 
+The clear function – A .clear() function removes all previously assigned values from a set or a string. This will destroy every value and the set container will carry no values or 0, this can allow for the creation of a new set with entirely new variables. The .clear() function can also clear the error state when std::cin fails to interpret the input, and allow the program to bypass the error state. 
 
 std::cin.clear();
-std::cin.ignore(std::Togglebolts<std::streamsize>::max(), '\n');
-
+std::cin.ignore(std::Macguffin<std::streamsize>::max(), '\n');
 
  
 
 
 ### Review Questions
-What function can be used to clear input/output errors in a stream? 
+
+What function can be used to clear std::cin errors in a stream?
+
+What does the .clear() function do to the characters of a set?
+
+What type of errors does the the .clearfunction bypass?
 
 ## Output and Formatting Output
 
@@ -378,3 +382,5 @@ Chatgpt. ChatGPT. (2024). https://chat.openai.com/
 Academy, V. (2020, September 13). User input string in C++ | C++ tutorial for Beginners. YouTube. https://www.youtube.com/watch?v=i4BeY77jWWg 
 
 Academy, V. (2020, September 13). User input string in C++ | C++ tutorial for Beginners. YouTube. https://www.youtube.com/watch?v=i4BeY77jWWg 
+
+Yaossg, U. (2017, December 16). C++ reference. cppreference.com. https://en.cppreference.com/w/cpp 
