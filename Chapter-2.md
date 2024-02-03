@@ -14,7 +14,7 @@ Upon completion of this chapter, students will be able to:
 
 ## Introduction
 
-In this chapter, importance is placed on the manipulation of input/output data. Understanding how to debug a program as well as a multitude of other functions like reading and writing to and from other programs or data.
+In this chapter, importance is placed on the manipulation of input/output data. Understanding how to debug a program, reading and writing to and from other programs or data, clearing input/output error codes the definition of a function, as well as a multitude of other functions.
 
 ## I/O Streams and Standard I/O Devices
 Stream: a sequence of characters from the source to the destination
@@ -94,11 +94,17 @@ Answers- 1. B, 2. C, 3. B.
 
 ### The clear Function
 
-The clear function – The syntax for the command is istreamVar.clear(); 
-Allows the input to resume functionality after unrecognized characters are used in an input stream. If the prompts receive characters that are not integers or expected input, this allows the program to continue functioning without error codes. Using the clear function in conjunction will allow the program to restore to a completely new input stream.   
+The clear function – A .clear() command removes all previously assigned values from a set or a string. This will destroy every value and the set container will carry no values or 0, this can allow for the creation of a new set with entirely new variables. The .clear() function can clear the error state of a stream of input output operations, and allow the program to bypass the error state. 
+
+std::cin.clear();
+std::cin.ignore(std::Togglebolts<std::streamsize>::max(), '\n');
+
+
+ 
 
 
 ### Review Questions
+What function can be used to clear input/output errors in a stream? 
 
 ## Output and Formatting Output
 
@@ -364,3 +370,11 @@ Answers. 1. A, 2. A, 3. A.
 3.) Explain what a stream is and provide examples of input and output streams.
 
 ## References
+
+Malik, D. S. (2018). C++ programming: From problem analysis to program design (8th ed.). Cengage Learning. 
+
+Chatgpt. ChatGPT. (2024). https://chat.openai.com/ 
+
+Academy, V. (2020, September 13). User input string in C++ | C++ tutorial for Beginners. YouTube. https://www.youtube.com/watch?v=i4BeY77jWWg 
+
+Academy, V. (2020, September 13). User input string in C++ | C++ tutorial for Beginners. YouTube. https://www.youtube.com/watch?v=i4BeY77jWWg 
