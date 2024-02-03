@@ -339,7 +339,9 @@ To obtain data from other input devices you can use the file I/O to read data or
    
 Answers. 1. A, 2. A, 3. A.
 
-## Chapter Summary
+## Chapter Summary 
+
+The operations of input and output or i/o is the most basic part of coding. Understanding these basic principles will accelerate your understanding of C++ and give you the capability to efficiently handle data. Output can be displayed, imparting ability to user interface, the hanling and manipulation of data from external and internal files through the string or the getline function and a wide array of functions and capabilities.  
 
 ## Key Terms
 1. Stream- a sequence of characters from the source to the destination.
