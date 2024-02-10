@@ -1,4 +1,4 @@
-# Chapter 3 Introduction
+# Introduction to Chapter 3
 
 ## Objectives
 Upon completion of this unit, students will be able to:
