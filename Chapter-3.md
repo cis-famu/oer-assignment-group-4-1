@@ -19,7 +19,7 @@ Use the assert function to terminate a program
 
 ### SELECTION: ```if``` AND ```if...else```
 Logical expression: an expression that evaluates to ‘true’ or ‘false’
-i. e. 8 is greater than 3, is true: 8 > 3.
+- i. e. 8 is greater than 3, is true: 8 > 3.
 - Relational Operators: == equal to, != not equal to, < less than, <= less than or equal to, > greater than, >= greater than or equal to
 
 ### Relational Operators and Simple Data Types
@@ -42,53 +42,51 @@ In C++, there are two selections, or branch control structures: if statements 
 
 ### One-Way Selection
 One-way selections are incorporated using the ‘if’ statement
-Syntax:
-if (expression)
-    statement
-Expression (decision maker)
-Statement (action statement)
+- Syntax:
+- if (expression)
+-    (statement)
+Expression (decision maker). Statement (action statement).
 - The ‘expression’ is usually a logical expression. If the value of the ‘expression’ is true, the ‘statement’ executes. If the ‘expression’ is false, vice versa.
 Ex. 
-if (score >= 60)
-    grade = ‘P’;
+- if (score >= 60)
+-    (grade = ‘P’;)
 - Forgetting parentheses around the logical expression, and putting a semicolon after the ‘expression’ will create a semantic error.
 
 ### Two-Way Selection
-Two-way selection involves the ‘if-else’ statement
+- Two-way selection involves the ‘if-else’ statement
 Syntax:
-if (expression)
-    statement1
-else
-     statement2
+- if (expression)
+-    (statement1)
+- else
+-    (statement2)
 - In a two-way selection, if the value of the expression is true, statement1 executes. If the value of the expression is false, statement2 executes
 Ex.
-if (hours (hours > 40.0)
-    wages = 40.0 * rate +
-    1.5 * rate * (hours - 40.0);
-else
-     wages = hours * rate;
+- if (hours (hours > 40.0)
+-    (wages = 40.0 * rate + 1.5 * rate * (hours - 40.0);
+- else
+-    (wages = hours * rate;)
 - If a semicolon is placed after the ‘expression’ and before ‘statement1’, it creates a syntax error
 
 ### ```int``` Data Type and Logical (Boolean) Expressions
 - Nonzero values are treated as true
 ex.
-int legalAge;
-int age;
+- int legalAge;
+- (int age;)
 - AND THE ASSIGNMENT STATEMENT
-legalAge = 21;
+- (legalAge = 21;)
 - If regarding legalAge as a logical variable, the value of legalAge is true.
 
-ex2.
-legalAge = (age >= 21);
+- ex2.
+- (legalAge = (age >= 21);)
 - The value 1 to legalAge if the value of age is greater than or equal to 21. The statememt assigns the value of age is less than 21.
 
 ### ```bool``` Data Type and Logical (Boolean) Expressions
 - 'bool', 'true', and 'false' are reserved words
 - The identifier ‘true’ has the value 1, and ‘false’ has the value 0
 ex.
-bool legalAge;
-int age;
-THE STATEMENT
+- bool legalAge;
+- int age;
+- THE STATEMENT
 - legalAge = true; (sets the value of legalAge to true)
 - legal = (age >= 21);
 - This assigns the value true to legalAge if the value of age is greater than or equal to 21. This statement assigns the value false to legalAge if the value of age is less than 21
@@ -96,7 +94,7 @@ THE STATEMENT
 ### Logical (Boolean) Operators and Logical Expressions
 The evaluation of a single relational operator
 - ex. weight and height are double variables
-weight > 180 and height < 6.0
+(weight > 180 and height < 6.0)
 - ! not (unary)
 - && and (binary)
 - | | or (binary)
@@ -115,18 +113,16 @@ The | | operator (or)
 - ex. (‘A’ <= ‘a’) | | (7 != 7), true, because (‘A’ <= ‘a’) is true, and (7 != 7) is false. true | | false is true.
 
 ### Order of Precedence
-11 > 5 | | 6 < 15 && 7 >= 8
+(11 > 5 | | 6 < 15 && 7 >= 8)
 - This logical expression yields different results, depending on whether || or && is evaluated first. If || is evaluated first, the expression evaluates to false. If && is evaluated first, the expression evaluates to true.
-
-- Operators                     Precedence
-- !, +,- (unary operators)      first
-- *, /, %                       second
-- +, -                          third
-- <, <=, =>, >                  fourth
-- ==, !=                        fifth
-- &&                            sixth
-- | |                           seventh
-- = (assignment operator)       last
+- !, +,- (unary operators),      first
+- *, /, % ,                      second
+- +, - ,                          third
+- <, <=, =>, > ,                  fourth
+- ==, != ,                       fifth
+- && ,                           sixth
+- | | ,                          seventh
+- = (assignment operator) ,      last
 
 - Using the precedence rules in an expression, relational and logical operators are evaluated from left to right
 - You can use parentheses into an expression to clarify its meaning and also to override the precedence of operators
