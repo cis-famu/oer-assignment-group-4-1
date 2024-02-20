@@ -137,30 +137,49 @@ else
 3. What is the Order of Precedence of the operators?
 
 ## Relational Operators and the ```string``` Type
+Relational Operatores include
+    * Equal to (==)
+    * Not equal to (!=)
+    * Greater than (>)
+    * Less than (<)
+    * Greater than or equal to (>=)
+    * Less than or equal to (<=)
+These are used to return a boolean value like (```true``` or ```false```)
+When comparing strings in C++ you are going letter by letter until you find a deviation.
 
 ### Compund (Block of) Statements
-
-### Multiple Selections: Nested ```if```
-
-### Comparing ```if...else``` Statements with a Series of ```if``` Statements
-
-### Short-Circuit Evaluation
-
-### Comparing Floating-Point Numbers for Equality: A Precaution
-
-### Associativity of Relational Operators: A Precaution
-
-### Avoiding Bugs by Avoiding Partially Understood Concepts and Techniques
-
-### Input Failure and the ```if``` Statement
-
-### Confusion between the Equality Operator (==) and the Assignment Operator (=)
-
-### Conditional Operator (?:)
-
-### Program Style and Form (Revisited): Indentation
+The ```if...else``` structure only allows you control over one statement at a time.
+For more complex statements you can use a compound statement.
+The syntax is 
+``` {
+        statement_1
+        statement_2
+        .
+        .
+        .
+        statement_n
+    }
+```
 
 ### Review Questions
+1. Relational operators in C++ include "Not equal to" (!=).
+
+A) True
+B) False
+
+2. Relational operators in C++ return:
+
+A) Strings
+B) Integers
+C) Booleans
+D) Floats
+
+3. Compound statements in C++ are used to execute multiple statements together within a single block.
+
+A) True
+B) False
+
+Answers- 1. True, 2. C, 3. True
 
 ## Using Pseudocode to Develop, Test, and Debug a Program
 
@@ -179,6 +198,20 @@ else
 ## Chapter Summary
 
 ## Key Terms
+1. logical (Boolean) expressions- an expression that has a value of either true or false.
+2. Decision maker- the expression in an if statement which determines whether to execute the statement that follows it.
+3. Action statement- the statement following the expression in an if statement.
+4. logical (Boolean) values- ```true``` and ```false```.
+5. Logical (Boolean) operators- operators that enable you to combine logical expressions.
+6. Associativity- the order in which operators are grouped and evaluated.
+7. Compound statement- consists of a sequence of statements enclosed in curly braces, { and }.
+8. Nested- when one control statement is located within another.
+9. Pairing an ```else``` with an ```if```- the rule stating that an else statement is associated with the most recent incomplete if statement.
+10. Short-circuit evaluation- A process in which the computer evaluates a logical expression from left to right and stops as soon as the final value of the expression is known.
+11. Conditional operator- a ternary operator written as “?:”; the three arguments explain what the condition is, what the result will be if the condition is true, and what the result will be if the condition is false.
+12. Conditional expression- an expression that uses a conditional operator.
+13. Pseudocode- an informal mixture of C++ and ordinary language used to design an outline of a logical solution to a problem.
+14. Switch structure- gives the computer the power to choose from among many alternatives.
 
 ## Programming Exercises
 
