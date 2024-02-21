@@ -199,10 +199,10 @@ if Y>X}
 
 
 ### Review Questions
-1.) Why do we utililize psuedo code?
+Why do we utililize psuedo code?
 
 ## ```switch```Structures
-
+In C++, we can use selection structures to make decisions in our programs.** **1. The "if" and "if...else" statements:** * These statements allow us to evaluate a logical expression to determine which block of code to execute. * We can use the "if" statement when we only have one block of code to execute based on a condition. * We use the "if...else" statement when we have two blocks of code to execute based on a condition. **2. The switch structure:** * This structure doesn't require evaluating a logical expression. * It allows the computer to choose from multiple options based on a given variable. * The "switch" statement checks the value of a variable and executes the code associated with that value.
 
 
 ### Avoiding Bugs by Avoiding Partially Understood Concepts and Techniques (Revisited)
@@ -254,9 +254,19 @@ int main() {
 14. Switch structure- gives the computer the power to choose from among many alternatives.
 
 ## Programming Exercises
+1.) Create a Psuedocode for a program that gets a number from the user ranging from 1-10, adds the number by 1, and displays the new number to the user.
+2.) Compare and contrast the = and == in C++.
+
+3.) Write a C++ program that takes input from the user for their score on a test and calculates their grade based on the following grading scale:
+
+A: Score >= 90
+B: 80 <= Score < 90
+C: 70 <= Score < 80
+D: 60 <= Score < 70
+F: Score < 60
 
 ## References
-Malik, D. S. (2018). C++ programming: From problem analysis to program design (8th ed.). Cengage Learning.
+Malik, D. S. (2018). C++ Programming: From problem analysis to program design (8th ed.). Cengage Learning.
 
 Chatgpt. ChatGPT. (2024). https://chat.openai.com/
 
