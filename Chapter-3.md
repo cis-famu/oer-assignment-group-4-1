@@ -182,8 +182,24 @@ B) False
 Answers- 1. True, 2. C, 3. True
 
 ## Using Pseudocode to Develop, Test, and Debug a Program
+Pseudocode is the method of using C++ and informal C++ language to help develop a program. Pseudocode allows you to create an outline for your code, which can help you see the applicable structure.
+
+
+Example:
+
+
+If... Y>X then Y is Larger. Else... X is larger. In C++ this would look like....
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+if Y>X}
+
 
 ### Review Questions
+1.) Why do we utililize psuedo code?
 
 ## ```switch```Structures
 
