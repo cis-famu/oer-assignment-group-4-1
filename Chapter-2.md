@@ -387,4 +387,6 @@ Academy, V. (2020, September 13). User input string in C++ | C++ tutorial for Be
 
 Yaossg, U. (2017, December 16). C++ reference. cppreference.com. https://en.cppreference.com/w/cpp 
 
+Learn to code. W3Schools Online Web Tutorials. (n.d.). https://www.w3schools.com/ 
+
 This Chapter's editor is Christopher Thaxton.
