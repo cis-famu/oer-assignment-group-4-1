@@ -203,14 +203,38 @@ if Y>X}
 
 ## ```switch```Structures
 
+
+
 ### Avoiding Bugs by Avoiding Partially Understood Concepts and Techniques (Revisited)
 
 ### Review Questions
 
 ## Terminating a Program with the ```assert``` Function
+The assert function is built in C++ to help address what we may face in the process of programming development. The assertion function will allow us to execute our programs with grace and give the user an error message indicating the type of error and the location within the program it occurred.
+
+
+Example,
+
+
+int main() {
+    int divisor = 0;
+    
+    // Using assert to check if divisor is not zero
+    assert(divisor != 0);
+    
+    int dividend = 10;
+    int result = dividend / divisor; // This line will cause a division by zero error if divisor is 0
+
+    std::cout << "Result: " << result << std::endl;
+
+    return 0;
+}
 
 ### Review Questions
+1.)What is the purpose of the Assert function?
 
+
+2.) How can one use the assert function to prevent you from having errors?
 ## Chapter Summary
 
 ## Key Terms
