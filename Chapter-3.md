@@ -216,6 +216,8 @@ Answers- 1. True, 2. C, 3. True
 ## Programming Exercises
 
 ## References
+Malik, D. S. (2018). C++ programming: From problem analysis to program design (8th ed.). Cengage Learning.
+Chatgpt. ChatGPT. (2024). https://chat.openai.com/
 
 
 This Chapter's editor was...(Put Name Here)
