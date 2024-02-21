@@ -386,3 +386,5 @@ Academy, V. (2020, September 13). User input string in C++ | C++ tutorial for Be
 Academy, V. (2020, September 13). User input string in C++ | C++ tutorial for Beginners. YouTube. https://www.youtube.com/watch?v=i4BeY77jWWg 
 
 Yaossg, U. (2017, December 16). C++ reference. cppreference.com. https://en.cppreference.com/w/cpp 
+
+This Chapter's editor is Christopher Thaxton.
