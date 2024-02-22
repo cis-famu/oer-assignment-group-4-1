@@ -302,6 +302,8 @@ int main() {
 2.) How can one use the assert function to prevent you from having errors?
 ## Chapter Summary
 
+As you continue to progress into programming, control structures will help you to design efficient code for many practical purposes. By practicing and learning new ways to use control structures in your code, you'll unlock myriads of choices for creating innovative and intelligent software.
+
 ## Key Terms
 1. logical (Boolean) expressions- an expression that has a value of either true or false.
 2. Decision maker- the expression in an if statement which determines whether to execute the statement that follows it.
@@ -334,6 +336,14 @@ F: Score < 60
 Malik, D. S. (2018). C++ Programming: From problem analysis to program design (8th ed.). Cengage Learning.
 
 Chatgpt. ChatGPT. (2024). https://chat.openai.com/
+
+Bolton, D. (2019, March 22). Definition of a loop in C, C++, and C#. ThoughtCo. https://www.thoughtco.com/definition-of-loop-958105 
+
+Busbee, K. L., & Braunschweig, D. (2018, December 15). Selection control structures. Programming Fundamentals. https://press.rebus.community/programmingfundamentals/chapter/selection-control-structures/ 
+
+GCFGlobal Learning. (n.d.). Computer science: Sequences, selections, and loops. GCFGlobal.org. https://edu.gcfglobal.org/en/computer-science/sequences-selections-and-loops/1/ 
+
+Shukla, S. (2022, June 27). What is control structure in C++?. Scaler Topics. https://www.scaler.com/topics/control-structure-in-cpp/ 
 
 
 This Chapter's editor was...(Put Name Here)
