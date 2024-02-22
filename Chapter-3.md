@@ -346,4 +346,4 @@ GCFGlobal Learning. (n.d.). Computer science: Sequences, selections, and loops. 
 Shukla, S. (2022, June 27). What is control structure in C++?. Scaler Topics. https://www.scaler.com/topics/control-structure-in-cpp/ 
 
 
-This Chapter's editor was...(Put Name Here)
+This Chapter's editor was...(name here)
