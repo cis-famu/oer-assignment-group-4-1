@@ -50,6 +50,28 @@ int main() {
 
 Output: x is greater than 5
 
+Like in the previous example with the switch statements, loop statements can be written a single time, allowing a programmer to perform many tasks using less direct input. This code is written in a way that it replays forever “in a loop”, or terminates when a set condition is seen as true or false.
+
+#include <iostream>
+using namespace std; 
+int main() {
+    
+    for (int i = 1; i <= 5; i++) {
+    cout << i << endl;
+    }
+
+    return 0;
+}
+
+The output: 
+1
+2
+3
+4
+5
+
+
+
 
 
 
