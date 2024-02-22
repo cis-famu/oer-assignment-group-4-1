@@ -31,6 +31,26 @@ int main(){
 
 This control structure is how normal code is read as it's compiled.
 
+In selection control structures, conditional statements are the parts of the code that do tasks based on whether a specific condition provided by the code equates to true or false. 
+
+
+
+#include <iostream>
+using namespace std; 
+int main() {
+    int x = 10;
+
+   
+    if (x > 5) {
+    cout << "x is greater than 5" << endl;
+    }
+
+    return 0;
+}
+
+Output: x is greater than 5
+
+
 
 
 ### SELECTION: ```if``` AND ```if...else```
