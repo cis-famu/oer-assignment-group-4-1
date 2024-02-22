@@ -208,7 +208,9 @@ In C++, we can use selection structures to make decisions in our programs.** **1
 ### Avoiding Bugs by Avoiding Partially Understood Concepts and Techniques (Revisited)
 
 ### Review Questions
+1.) What is the purpose of switch structures?
 
+2.) How can we use switch structures?
 ## Terminating a Program with the ```assert``` Function
 The assert function is built in C++ to help address what we may face in the process of programming development. The assertion function will allow us to execute our programs with grace and give the user an error message indicating the type of error and the location within the program it occurred.
 
@@ -257,7 +259,7 @@ int main() {
 1.) Create a Psuedocode for a program that gets a number from the user ranging from 1-10, adds the number by 1, and displays the new number to the user.
 2.) Compare and contrast the = and == in C++.
 
-3.) Write a C++ program that takes input from the user for their score on a test and calculates their grade based on the following grading scale:
+3.) Write a C++ program that takes input from the user for their math score on a test and calculates the inputted grade based on the following grading scale:
 
 A: Score >= 90
 B: 80 <= Score < 90
