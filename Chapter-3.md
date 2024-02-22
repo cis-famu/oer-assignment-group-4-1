@@ -19,6 +19,7 @@ Use the assert function to terminate a program
 
 Control structures allow for C++ code to perform conditional tasks. These conditional tasks are contained in what are called “control structures”. There are three types of Control Structures in C++, they are the sequence structure, the selection structure, and the loop structure. 
 
+*Sequence Structure: Execute instructions step by step.
 The sequence structure presents a serial list (one after another) of tasks for the code to perform to completion. The sequence structure exists as the most fundamental form of control structure, this type of structure is present in its most basic form as the “hello world” program example.
 #include <iostream>
 using namespace std;
@@ -31,6 +32,7 @@ int main(){
 
 This control structure is how normal code is read as it's compiled.
 
+*Selection Structure: Make decisions based on conditions.
 In selection control structures, conditional statements are the parts of the code that do tasks based on whether a specific condition provided by the code equates to true or false. 
 
 
@@ -50,6 +52,7 @@ int main() {
 
 Output: x is greater than 5
 
+*Loop Structure: Repeat tasks until a condition is met.
 Like in the previous example with the switch statements, loop statements can be written a single time, allowing a programmer to perform many tasks using less direct input. This code is written in a way that it replays forever “in a loop”, or terminates when a set condition is seen as true or false.
 
 #include <iostream>
