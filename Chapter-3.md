@@ -15,6 +15,8 @@ Use the assert function to terminate a program
 
 ## Chapter Introduction
 
+Control structures are the bread and butter of programming. Control structures allow you to direct how your code operates as well as create complex programs that can perform many tasks.
+
 ## Control Structures
 
 Control structures allow for C++ code to perform conditional tasks. These conditional tasks are contained in what are called “control structures”. There are three types of Control Structures in C++, they are the sequence structure, the selection structure, and the loop structure. 
