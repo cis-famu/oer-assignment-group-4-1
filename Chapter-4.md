@@ -54,23 +54,23 @@ The objective for this program is to find the sum of the numbers in each line.
 **Program:**<br>
 int main()<br>
 {<br>
-    ifstream infile;<br>
-    int i;<br>
-    int j;<br>
-    int sum;<br>
-    int num;<br>
-    infile.open("Ch5_LoopWithBugsData.txt");<br>
-    for(i=1; i<=4; i++)<br>
-    {<br>
-        sum=0;<br>
-        for (j=1; j<= 4; j++)<br>
+        ifstream infile;<br>
+        int i;<br>
+        int j;<br>
+        int sum;<br>
+        int num;<br>
+        infile.open("Ch5_LoopWithBugsData.txt");<br>
+        for(i=1; i<=4; i++)<br>
         {<br>
-            infile>>num;<br>
-            cout<<num<<" ";<br>
-            sum=sum+num;<br>
+            sum=0;<br>
+            for (j=1; j<= 4; j++)<br>
+            {<br>
+                infile>>num;<br>
+                cout<<num<<" ";<br>
+                sum=sum+num;<br>
+            }<br>
+            cout<<"sum= "<<sum<<endl;<br>
         }<br>
-        cout<<"sum= "<<sum<<endl;<br>
-    }<br>
 }<br>
 <br>
 Sample Run:<br>
@@ -84,18 +84,43 @@ In the sample, it is clear that there is a problem because the output contains f
 In the program below, a software patch is added to manually cut off the unwanted fourth line:<br>
 int main()<br>
 {<br>
-    ifstream infile;<br>
-    int i;<br>
-    int j;<br>
-    int sum;<br>
-    int num;<br>
-    infile.open("Ch5_LoopWithBugsData.txt");<br>
-    for(i=1; i<=4; i++)<br>
-    {<br>
-        sum=0;<br>
-        if (i != 4) //software patch<br>
+        ifstream infile;<br>
+        int i;<br>
+        int j;<br>
+        int sum;<br>
+        int num;<br>
+        infile.open("Ch5_LoopWithBugsData.txt");<br>
+        for(i=1; i<=4; i++)<br>
         {<br>
-            for (j=1; j<= 4; j++)<br>
+            sum=0;<br>
+            if (i != 4) //software patch<br>
+            {<br>
+                for (j=1; j<= 4; j++)<br>
+                {<br>
+                    infile>>num;<br>
+                    cout<<num<<" ";<br>
+                    sum=sum+num;<br>
+                }<br>
+                cout<<"sum= "<<sum<<endl;<br>
+            }<br>
+        }<br>
+}<br>
+<br>
+Sample Run (2):<br>
+87 78 83 94 sum = 342<br>
+23 89 92 70 sum = 274<br>
+92 78 34 56 sum = 260<br>
+<br>
+- Now, the program is working. However this shows that the program is executing extra statements. Adding the software patch did elimate the symptom, but is a poor programming practice.
+
+- This problem can be eliminated by correctly setting the values of the loop control variable. The values assigned to loop control variable i are 1, 2, 3, and 4. This is an example of the loop executing one too many/few times.
+<br>
+Rewritten code:<br>
+{<br>
+        for (i=1; i<=3; i++)<br>
+        {<br>
+            sum=0;<br>
+            for (j=1; j<=4; j++)<br>
             {<br>
                 infile>>num;<br>
                 cout<<num<<" ";<br>
@@ -103,32 +128,7 @@ int main()<br>
             }<br>
             cout<<"sum= "<<sum<<endl;<br>
         }<br>
-    }<br>
-}<br>
-<br>
-Sample Run (2):<br>
-87 78 83 94 sum = 342<br>
-23 89 92 70 sum = 274<br>
-92 78 34 56 sum = 260<br>
-
-- Now, the program is working. However this shows that the program is executing extra statements. Adding the software patch did elimate the symptom, but is a poor programming practice.
-
-- This problem can be eliminated by correctly setting the values of the loop control variable. The values assigned to loop control variable i are 1, 2, 3, and 4. This is an example of the loop executing one too many/few times.
-
-Rewritten code:<br>
-{<br>
-    for (i=1; i<=3; i++)<br>
-    {<br>
-        sum=0;<br>
-        for (j=1; j<=4; j++)<br>
-        {<br>
-            infile>>num;<br>
-            cout<<num<<" ";<br>
-            sum=sum+num;<br>
-        }<br>
-        cout<<"sum= "<<sum<<endl;<br>
-    }<br>
-    return 0;<br>
+        return 0;<br>
 }<br>
 
 ### Review Questions
