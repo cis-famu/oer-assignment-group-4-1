@@ -40,6 +40,34 @@
 
 ## Nested Control Structures
 
+Nested Control Structures
+Nested loops are loops within loops that execute based on a conditional statement. The inner loop once its condition has been met allows continuation of the outer loop. An example of this could be a do-while loop, wherein a prompt is displayed to the user asking for a character input. This process only continues once the correct input has been made. There is an if-else statement buried within the do-while structure that reports to the user whether or not the correct input has been typed. If for instance, an integer or any non-alphabetical character is input the program will print to the screen “Invalid option”, this will send the user back to the default prompt. The ELSE part of the statement terminates the loop by either outputting “Good job!”  or nothing is output because the user typed ‘Q’.
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+    char letter;
+    
+    do{
+        cout << "Please enter a letter | Q = Quit" << endl; //Prompts user to enter a letter.
+        cin >> letter;  //Extracts user input from standard input stream
+
+        if(!isalpha(letter)){   //Sentinel-terminted if statement. If char letter is not alphabetic
+            cout << "Invalid option" << endl;   //Prints out error statement if condition is true
+        }else{                  
+            cout << "Good Job!" << endl;    //Prints out success statement
+            letter = 'Q';   //Sets letter to the while loop's conditional statement, terminating the loop.
+        }
+    }while( letter =! 'Q' );    //Sentinal-terminated while loop. If letter is equal to 'Q'
+
+    return 0;
+}
+
+
+
 ### Review Questions
 
 ## Avoiding Bugs by Avoiding Patches
