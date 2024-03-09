@@ -246,6 +246,17 @@ int main(){
 
 ### Review Questions
 
+What are nested control structures?
+
+How are nested control structures executed?
+
+What kind of loops usually are on the outside of these control structures?
+
+What kinds of loops can be on the inside of nested control structures?
+
+How many loops can be contained within the outer loop?
+
+
 ## Avoiding Bugs by Avoiding Patches
 Software Patch: a piece of code written on top of another piece of code that is intended to fix a bug in the original code
 <br>
