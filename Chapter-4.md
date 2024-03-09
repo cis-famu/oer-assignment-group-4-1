@@ -56,6 +56,27 @@ int main() {
 
 ### Case 3: Flag-Controlled while Loops
 
+A flag-controlled while loop in C++ is a loop that repeats a block of code as long as a specific condition remains true. Unlike a regular while loop where the condition directly determines whether the loop continues, in a flag-controlled while loop, the loop is controlled by a boolean flag variable.
+
+EX.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    bool flag = true;
+    int count = 0;
+    while (flag) {
+        cout << "Count: " << count << endl;
+        count++;
+        if (count == 5) {
+            flag = false; // Set flag to false to exit the loop
+        }
+    }
+    cout << "Exiting loop." << endl;
+    return 0;
+}
+
 ### eof Function
 
 The End of File function in C++ checks whether the (EOF) has been reached on an input stream. It returns true if the end-of-file indicator associated with the stream is set and false otherwise. It is often used with input operations, especially in loops reading from files.
