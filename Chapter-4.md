@@ -203,6 +203,17 @@ int main(){
 
 ### Review Questions
 
+What is another name for break and continue statements?
+
+What does a break statement do?
+
+What does a continue statement do?
+
+What loops can break statements be used in?
+
+T/F A break statement in a nested loop will terminate the outer loopfunction?
+
+
 ## Nested Control Structures
 
 Nested Control Structures
