@@ -1,4 +1,4 @@
-# Intoduction to Chapter 4
+\# Intoduction to Chapter 4
 
 ## Objectives
 
@@ -35,6 +35,42 @@
 ### Review Questions
 
 ## break and continue Statements
+
+Break and Continue statements can help to regulate the loop process by either ending the loop or allowing it to continue running, also known as ‘jump statements’. Continue statements allow code within the loop to continue looping and break statements allow if certain conditions are met the loop statement to be terminated. Break statements can work in three types of loops: simple loops, nested loops, and infinite loops. In nested loops, break statements will terminate in the innermost loop.
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+    int num1, num2, num3, num4, num5, avg;  /* Declare variables*/
+
+    
+    do{
+        cout << "Enter five numbers" << endl;   //Prompts user to enter 5 numbers.
+        cin >> num1 >> num2 >> num3 >> num4 >> num5;    // 5 numbers 
+
+        avg = (num1 + num2 + num3 + num4 + num5)/5;
+
+        
+        /*If number is even, continue*/
+        if(avg % 2 == 0){
+            cout << "EVEN" << endl;
+            continue; 
+        }
+        /*If number is odd break*/ 
+        else if(avg % 2 == 1)
+        {
+            cout << "ODD" << endl;
+            break;
+        }
+    /*Loops until break statement*/    
+    }while(1);
+
+    return 0;
+}
+
+
 
 ### Review Questions
 
