@@ -154,6 +154,15 @@ int main()
 
 ### Review Questions
 
+What goes first in a do-while loop, the condition or the code?
+
+What is aonther name for the do-while loop?
+
+What is a use for the do-while loop?
+
+How many times will the code in a do while code run initially?
+
+
 ## break and continue Statements
 
 Break and Continue statements can help to regulate the loop process by either ending the loop or allowing it to continue running, also known as ‘jump statements’. Continue statements allow code within the loop to continue looping and break statements allow if certain conditions are met the loop statement to be terminated. Break statements can work in three types of loops: simple loops, nested loops, and infinite loops. In nested loops, break statements will terminate in the innermost loop.
