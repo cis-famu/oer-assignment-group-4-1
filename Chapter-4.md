@@ -5,6 +5,7 @@
 ## Introduction
 
 ## Why is repetition needed?
+Repetition in C++ allows the user to execute code multiple times, which makes programs more concise and easier to maintain. There's different types of Loops like for, while, and do-while, which provide the user a level of flexibility in controlling repetition based on various requirements and conditions.
 
 ### Review Questions
 
