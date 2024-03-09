@@ -342,4 +342,22 @@ Understanding core concepts about control structures and repetition in C++ gives
 
 ## References
 
+Chatgpt. ChatGPT. (2024).  https://chat.openai.com/
+
+From <https://github.com/cis-famu/oer-assignment-group-4-1/blob/main/Chapter-3.md> 
+
+Malik, D. S. (2018). C++ Programming: From problem analysis to program design (8th ed.). Cengage Learning.
+
+From <https://github.com/cis-famu/oer-assignment-group-4-1/blob/main/Chapter-3.md> 
+
+Hanansani. (2024, January 29). Mastering loops in C++: A comprehensive guide. Medium. https://medium.com/@hanansani2002/mastering-loops-in-c-a-comprehensive-guide-15a621de10c8 
+
+C++ for loop. (n.d.-a). https://www.w3schools.com/cpp/cpp_for_loop.asp 
+
+GfG. (2023, December 26). C++ loops. GeeksforGeeks. https://www.geeksforgeeks.org/cpp-loops/ 
+
+C++ while and do...while loop. Programiz. (n.d.). https://www.programiz.com/cpp-programming/do-while-loop  
+
+
+
 This Chapter's editor was...(Put Name Here)
