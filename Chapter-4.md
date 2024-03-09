@@ -104,6 +104,10 @@ int main() {
 ### Review Questions
 
 ## for Looping (Repetition) Structure
+The for loop in C++ is a versatile control flow construct designed to repeat a block of code a specific number of times. It comprises three key components: initialization, condition evaluation, and update. The loop begins with initialization, where a loop control variable is typically initialized and executed only once at the loop's outset. Subsequently, the condition is evaluated; if true, the code block within the loop executes, allowing for various C++ operations like variable declarations, calculations, and function calls. Following code execution, the loop control variable is updated, commonly incremented or decremented. The loop then returns to the condition evaluation step, repeating the process until the condition becomes false, thereby terminating the loop. 
+
+
+
 
 #include <iostream>
 
