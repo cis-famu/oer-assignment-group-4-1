@@ -345,5 +345,9 @@ GCFGlobal Learning. (n.d.). Computer science: Sequences, selections, and loops. 
 
 Shukla, S. (2022, June 27). What is control structure in C++?. Scaler Topics. https://www.scaler.com/topics/control-structure-in-cpp/ 
 
+C++ for loop. (n.d.-a). https://www.w3schools.com/cpp/cpp_for_loop.asp
+
+C++ while and do...while loop. Programiz. (n.d.). https://www.programiz.com/cpp-programming/do-while-loop
+
 
 This Chapter's editor was...(name here)
