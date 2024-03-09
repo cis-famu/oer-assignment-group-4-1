@@ -58,6 +58,22 @@ int main() {
 
 ### eof Function
 
+The End of File function in C++ checks whether the (EOF) has been reached on an input stream. It returns true if the end-of-file indicator associated with the stream is set and false otherwise. It is often used with input operations, especially in loops reading from files.
+
+#include <iostream>
+#include <fstream>
+
+int main() {
+    ifstream file("example.txt");
+    char ch;
+    while (!file.eof()) {
+        file.get(ch);
+        cout << ch;
+    }
+    file.close();
+    return 0;
+}
+
 ### More on Expressions in while Statements
 
 ### Review Questions
