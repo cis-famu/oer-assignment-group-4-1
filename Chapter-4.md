@@ -400,4 +400,4 @@ C++ while and do...while loop. Programiz. (n.d.). https://www.programiz.com/cpp-
 
 
 
-This Chapter's editor was...(Put Name Here)
+This Chapter's editor was...(Briana Harvey)
