@@ -28,7 +28,31 @@
 
 ### Review Questions
 
-## do... while Looping (Repetition) Structure
+## do... while Looping (Repetition) Structure 
+
+A Do-while loop will execute at least once, then it will test if the while condition is true and continue to loop until it's not. If the initial condition is not met the loop will stop. Do-while loops are good for user validation in menus and escape or default exit inputs. A while loop is also known as a posttest loop because it evaluates after running at least once and possesses an exit condition. 
+
+#include <iostream> 
+using namespace std; 
+  
+int main() 
+{ 
+    /* Initialization expression i starts at zero */ 
+    int i = 0; 
+  
+    do { 
+        /* Loop body*/ 
+        cout << "Next loop" << endl; 
+  
+        /* Update expression */
+        i++; 
+  
+    } 
+    /* Test expression */
+    while (i < 10); /* Number of loops repeated until i increments to 10 */
+  
+    return 0; 
+}
 
 ### Choosing the Right Looping Structure
 
