@@ -33,6 +33,25 @@ int main() {
 
 ### Case 2: Sentinel-Controlled while Loops
 
+A sentinel-controlled while loop is a type of loop in programming that repeats a block of code until a specific “sentinel" value is encountered. The sentinel value acts as a signal to stop the loop and exit. A sentinel-controlled while loop is a powerful construct that allows your program to perform tasks until a specific signal (the sentinel value) is received; at this point, the loop terminates repeatedly.
+
+
+EX
+
+
+int main() {
+    int number;
+    std::cout << "Enter numbers (enter -1 to exit): ";
+    std::cin >> number;
+    while (number != -1) {
+        std::cout << "You entered: " << number << std::endl;
+        std::cin >> number;
+    }
+    std::cout << "Exiting loop." << std::endl;
+    return 0;
+}
+
+
 ### Case 3: Flag-Controlled while Loops
 
 ### eof Function
