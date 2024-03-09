@@ -4,10 +4,10 @@
 
 ## Introduction
 
--Repetition in coding includes the various types of loops used c++ coding, while loops, for loops, do-while loops, and if-else statements are helpful for many user prompts programs for menus, counting from arrays, as well as a vast multitude of other uses and purposes. Switch statements, using break and continue statements, help regulate the order and efficiency of the coded loops. The skills built in these sections are major cornerstones of high organizational coding. 
+Repetition in coding includes the various types of loops used c++ coding, while loops, for loops, do-while loops, and if-else statements are helpful for many user prompts programs for menus, counting from arrays, as well as a vast multitude of other uses and purposes. Switch statements, using break and continue statements, help regulate the order and efficiency of the coded loops. The skills built in these sections are major cornerstones of high organizational coding. 
 
 ## Why is repetition needed?
-Repetition in C++ allows the user to execute code multiple times, which makes programs more concise and easier to maintain. There's different types of Loops like for, while, and do-while, which provide the user a level of flexibility in controlling repetition based on various requirements and conditions.
+-Repetition in C++ allows the user to execute code multiple times, which makes programs more concise and easier to maintain. There's different types of Loops like for, while, and do-while, which provide the user a level of flexibility in controlling repetition based on various requirements and conditions.
 
 ### Review Questions
 
@@ -17,7 +17,7 @@ Repetition in C++ allows the user to execute code multiple times, which makes pr
 
 ### Case 1: Counter-Controlled while Loops
 
-A counter-controlled while loop is a type of loop in C++ that repeats a block of code a certain number of times. It's controlled by a counter variable that keeps track of how many times the loop has run. 
+-A counter-controlled while loop is a type of loop in C++ that repeats a block of code a certain number of times. It's controlled by a counter variable that keeps track of how many times the loop has run. 
 
 EX. 
 
