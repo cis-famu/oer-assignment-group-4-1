@@ -17,6 +17,20 @@ Repetition in C++ allows the user to execute code multiple times, which makes pr
 
 ### Case 1: Counter-Controlled while Loops
 
+A counter-controlled while loop is a type of loop in C++ that repeats a block of code a certain number of times. It's controlled by a counter variable that keeps track of how many times the loop has run. 
+
+EX. 
+
+
+int main() {
+    int counter = 0;
+    while (counter < 5) {
+        std::cout << "Counter: " << counter << std::endl;
+        counter++;
+    }
+    return 0;
+}
+
 ### Case 2: Sentinel-Controlled while Loops
 
 ### Case 3: Flag-Controlled while Loops
