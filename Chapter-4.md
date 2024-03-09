@@ -21,11 +21,12 @@ Repetition in coding includes the various types of loops used c++ coding, while 
 
 EX. 
 
-
+#include <iostream>
+using namespace std;
 int main() {
     int counter = 0;
     while (counter < 5) {
-        std::cout << "Counter: " << counter << std::endl;
+        cout << "Counter: " << counter << endl;
         counter++;
     }
     return 0;
@@ -38,16 +39,17 @@ A sentinel-controlled while loop is a type of loop in programming that repeats a
 
 EX
 
-
+#include <iostream>
+using namespace std;
 int main() {
     int number;
-    std::cout << "Enter numbers (enter -1 to exit): ";
-    std::cin >> number;
+    cout << "Enter numbers (enter -1 to exit): ";
+    cin >> number;
     while (number != -1) {
         std::cout << "You entered: " << number << std::endl;
         std::cin >> number;
     }
-    std::cout << "Exiting loop." << std::endl;
+    cout << "Exiting loop." << std::endl;
     return 0;
 }
 
