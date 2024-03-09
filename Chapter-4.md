@@ -339,6 +339,11 @@ Understanding core concepts about control structures and repetition in C++ gives
 ## Key Terms
 
 ## Programming Exercise
+1.) Write a program that prints numbers from 1 to 10 using a counter-controlled while loop.
+
+2.) Write a program that outputs even numbers from 2 to 20 using a flag-controlled while loop.
+
+3.) Write a program that prompts the user to enter numbers until they enter 0. After each input, print the sum of all entered numbers.
 
 ## References
 
