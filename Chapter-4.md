@@ -27,6 +27,21 @@ Repetition in C++ allows the user to execute code multiple times, which makes pr
 
 ## for Looping (Repetition) Structure
 
+#include <iostream>
+
+using namespace std;
+ int main(){
+
+/* condition is i beginning at zero is incremented until it is less than or equal to 25 */
+for (int i = 0; i <= 25; i++) {
+
+/* each increment of i is printed to screen on a new line as long as the value condition is true */    
+  cout << i << endl;
+}
+
+return 0;
+ }
+
 
 
 ### Review Questions
