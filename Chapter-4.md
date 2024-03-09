@@ -293,6 +293,10 @@ Ex. Let 'p' be a loop invariant and 'q' be the (logical) expression in a loop
 
 ## Summary
 
+
+Understanding core concepts about control structures and repetition in C++ gives the coder foundational tools including conditional statements, looping structures, and switch statements. These skills are essential for directing the program flow and creating efficient usable code. By obtaining these skills, programmers gain the ability to make decisions, repeat actions, and manage control flow effectively, thus allowing a greater capability to write complex though maintainable programs in C++."
+
+
 ## Key Terms
 
 ## Programming Exercise
