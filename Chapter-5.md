@@ -1,6 +1,19 @@
 # Intoduction to Chapter 5
 
 ## Objectives
+Upon completion of this unit, students will be able to:
+
+Describe predefined and user-defined functions
+Identify value-returning functions, including actual and formal parameters
+Construct and use a value-returning, user-defined function in a program
+Identify function prototypes
+Use void functions in a program
+Distinguish between value and reference parameters
+Compare and contrast local and global identifiers
+Use static variables
+Debug programs using drivers and stubs
+Research function overloading
+Use functions with default parameters
 
 ## Introduction
 
