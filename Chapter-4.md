@@ -17,8 +17,6 @@ Repetition in coding includes the various types of loops used in c++ coding: whi
 
 ## while Looping (Repetition) Structure
 
-### Designing while Loops
-
 ### Case 1: Counter-Controlled while Loops
 
 -A counter-controlled while loop is a type of loop in C++ that repeats a block of code a certain number of times. It's controlled by a counter variable that keeps track of how many times the loop has run. 
@@ -99,9 +97,27 @@ int main() {
     return 0;
 }
 
-### More on Expressions in while Statements
 
 ### Review Questions
+1. Which type of loop in C++ repeats a block of code a certain number of times based on a counter variable?
+a) Sentinel-controlled while loop
+b) Flag-controlled while loop
+c) Counter-controlled while loop
+d) eof function loop
+
+2. What type of loop in programming repeats a block of code until a specific "sentinel" value is encountered?
+a) Counter-controlled while loop
+b) Flag-controlled while loop
+c) Sentinel-controlled while loop
+d) eof function loop
+
+3. In a flag-controlled while loop, what controls whether the loop continues or not?
+a) The counter variable
+b) The sentinel value
+c) A boolean flag variable
+d) The eof function
+
+Answers 1. C, 2. C, 3. C
 
 ## for Looping (Repetition) Structure
 The for loop in C++ is a versatile control flow construct designed to repeat a block of code a specific number of times. It comprises three key components: initialization, condition evaluation, and update. The loop begins with initialization, where a loop control variable is typically initialized and executed only once at the loop's outset. Subsequently, the condition is evaluated; if true, the code block within the loop executes, allowing for various C++ operations like variable declarations, calculations, and function calls. Following code execution, the loop control variable is updated, commonly incremented or decremented. The loop then returns to the condition evaluation step, repeating the process until the condition becomes false, thereby terminating the loop. 
@@ -127,6 +143,25 @@ return 0;
 
 
 ### Review Questions
+1. What are the three key components of a for loop in C++?
+   a) Initialization, condition evaluation, and sentinel value
+   b) Initialization, loop variable update, and sentinel value
+   c) Initialization, condition evaluation, and loop variable update
+   d) Initialization, condition evaluation, and loop termination
+
+2. In a for loop, when does the initialization step occur?
+   a) Before the condition evaluation
+   b) After the condition evaluation
+   c) After the loop variable update
+   d) Before the loop termination
+
+3. What happens during the loop variable update step in a for loop?
+   a) The loop control variable is reset to its initial value
+   b) The loop control variable is incremented or decremented
+   c) The loop terminates
+   d) The loop control variable is compared with the sentinel value
+
+Answers 1. C, 2. A, 3. B 
 
 ## do... while Looping (Repetition) Structure 
 
@@ -154,7 +189,6 @@ int main()
     return 0; 
 }
 
-### Choosing the Right Looping Structure
 
 ### Review Questions
 
@@ -351,6 +385,25 @@ Rewritten code:<br>
 }<br>
 
 ### Review Questions
+1. What does a software patch aim to do in programming?
+   a) Optimize code for better performance
+   b) Introduce new features into existing code
+   c) Fix a bug in the original code
+   d) Enhance code readability
+
+2. What was the problem with the initial program that required the addition of a software patch?
+   a) The code had syntax errors
+   b) The loop control variable was not properly managed
+   c) The file couldn't be opened for reading
+   d) The output formatting was incorrect
+
+3. How was the issue resolved without adding a software patch in the rewritten code?
+   a) By introducing new variables
+   b) By correctly setting the values of the loop control variable
+   c) By changing the file reading mechanism
+   d) By modifying the output display format
+
+Answers 1. C, 2. B, 3. B
 
 ## Debugging Loops
 Most times, the complier will identify errors, like syntax errors. If there are logical errors, we have to personally look for them.
@@ -368,7 +421,27 @@ Ex. Let 'p' be a loop invariant and 'q' be the (logical) expression in a loop
 - If the loop changes the values of variables, you can print the values of the variables before and/or after each iteration or you can use your IDE’s debugger, if any, and watch the values of variables during each iteration.
 
 ### Review Questions
+Review Questions:
 
+1. How can the correctness of a loop be verified using loop invariants?
+   a) By checking if the loop executes a specific number of times
+   b) By ensuring that the loop terminates
+   c) By verifying that a logical expression remains true before each iteration and after loop termination
+   d) By counting the number of iterations manually
+
+2. What is a common error if a loop becomes an infinite loop?
+   a) Syntax error in the loop initialization
+   b) Logical expression controlling the loop execution
+   c) Incorrect loop variable update
+   d) Missing semicolon at the end of the loop
+
+3. When debugging loops, what can be helpful in tracking the values of variables during each iteration?
+   a) Using loop invariants
+   b) Hand-tracing the loop
+   c) Printing the values of variables before and/or after each iteration
+   d) Checking for syntax errors in the loop body
+
+Answers 1. C, 2. B, 3. C
 ## Summary
 
 
@@ -376,6 +449,17 @@ Understanding core concepts about control structures and repetition in C++ gives
 
 
 ## Key Terms
+1. decision maker- an expression in an if statement, which determines whether to execute the statement that follows it.
+2. infinite loop- a loop that continues to execute endlessly.
+3. loop control variable- a variable that controls the end of the loop.
+4. counter-controlled while loop - a while loop that is used when you know how many items of data are to be read; the loop will continue until the condition designated by the counter is met or evaluates to false.
+5. flag-controlled while loop- uses a Boolean variable to control the execution of the loop.
+6. end-of-file (EOF)-controlled while loop- a while loop that stops when it reaches the end of the input file.
+7. Fibonacci number- a number in the Fibonacci sequence.
+8. Fibonacci sequence- an= an-1+an-2
+9. for loop- used to simplify the writing of counter-controlled loops; consists of an initialization statement, the loop condition, and the update statement.
+10. nesting- a process that involves putting one control structure inside another.
+11. divisor- suppose that m and n are integers and m is nonzero. Then m is called a divisor of n if n=mt for some integer t; that is, when m divides n, the remainder is 0.
 
 ## Programming Exercise
 1.) Write a program that prints numbers from 1 to 10 using a counter-controlled while loop.
