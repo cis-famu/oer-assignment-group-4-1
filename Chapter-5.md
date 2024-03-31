@@ -153,6 +153,9 @@ int main() {
 ### Review Questions
 
 ## Global Variables, Named Constants, and Side Effects
+In C++, a var that's declared outside of all functions and classes is called a global var. This kind of var can be used everywhere in your code. Even though it may seem convenient, having global vars can cause issues because any part of your code can modify them. This can make it tricky to pinpoint where the value of a global var is being changed if you're trying to troubleshoot your code.
+
+Named constants are special kinds of variables that can't be changed once they're set. This helps you keep a specific value in your code that you don't want to alter accidentally. To create a named constant, you can use the keyword const.
 
 ### Review Questions
 
