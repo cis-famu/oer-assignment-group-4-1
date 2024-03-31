@@ -94,6 +94,38 @@ paintCar(color);
 
 ## Scope of an Identifier
 
+In C++, the place where an identifier can be used is called its scope. There are 3 kinds of scopes:
+
+Global Scope: If an identifier is declared outside of any functions or classes, it has a global scope and can be used anywhere in the program.
+
+Local Scope: If an identifier is declared inside a function or a group of code, it has local scope. It can only be used inside that function or group of code. As soon as that function or group of code finishes, the identifier is eliminated and cannot be used anymore.
+
+Class Scope: If an identifier is declared inside a class (but not in one of its methods), it has class scope. It can be used by all methods inside that class.
+
+Example:
+#include <iostream> // global scope
+using namespace std;
+
+int globalVar = 10; // global scope
+
+class MyClass {
+    int classVar; // class scope
+
+    void myMethod() {
+        int localVar = 5; // local scope
+        cout << localVar << endl; // can access localVar
+        cout << classVar << endl; // can access classVar
+        cout << globalVar << endl; // can access globalVar
+    }
+};
+
+int main() {
+    int localVar = 20; // local scope
+    cout << localVar << endl; // can access localVar
+    cout << globalVar << endl; // can access globalVar
+    // cout << classVar << endl; // error: cannot access classVar
+}
+
 ### Review Questions
 
 ## Global Variables, Named Constants, and Side Effects
