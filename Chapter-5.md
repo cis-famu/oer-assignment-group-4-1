@@ -57,9 +57,28 @@ Upon completion of this unit, students will be able to:
 
 ## Value Parameters
 
-Pretend you've got a box. Whatever you put in this box, can change, but the original thing you put in stays the same. Now, imagine a toy car. You put this toy car into the magic box. Inside the box, you decide to change the color of the toy car to red. When you take the car out of the box, it's red, but the original toy car you put in remains the same color it was before. In C++, when we use something called value parameters, it's like using that magic box. When you pass information (like a number or a word) to a function, it's as if you're putting it in the magic box. The function can work with a copy of this information, just like changing the color of the toy car inside the box. So, let's say you have a function called " carColor " in your C++ program. This function changes the color of a car. When you call this function with the color "blue", it's like putting "blue" in the magic box. Inside the function, it changes the color to "red". But when you take the car (or the value) out of the function, the original "blue" color remains unchanged. Value parameters in C++ let us work with data without messing up the original values. It's like using that box to make changes without affecting the original car. Value parameters in C++ allow you to work with data inside a function without modifying the original values passed as arguments. It's like using a temporary copy or model to make changes without affecting the original object. This is useful when you want to perform operations on the data within the function's scope while keeping the original data intact.
+Pretend you've got a box. Whatever you put in this box, can change, but the original thing you put in stays the same. Now, imagine a toy car. You put this toy car into the magic box. Inside the box, you decide to change the color of the toy car to red. When you take the car out of the box, it's red, but the original toy car you put in remains the same color it was before. In C++, when we use something called value parameters, it's like using that magic box. When you pass information (like a number or a word) to a function, it's as if you're putting it in the magic box. The function can work with a copy of this information, just like changing the color of the toy car inside the box. So, let's say you have a function called " paintCar " in your C++ program. This function changes the color of a car. When you call this function with the color "blue", it's like putting "blue" in the magic box. Inside the function, it changes the color to "red". But when you take the car (or the value) out of the function, the original "blue" color remains unchanged. Value parameters in C++ let us work with data without messing up the original values. It's like using that box to make changes without affecting the original car. Value parameters in C++ allow you to work with data inside a function without modifying the original values passed as arguments. It's like using a temporary copy or model to make changes without affecting the original object. This is useful when you want to perform operations on the data within the function's scope while keeping the original data intact.
+
+void paintCar(string carColor) {
+    carColor = "Red"; // Changes the color inside the function
+}
+
+string color = "Blue";
+paintCar(color);
+
+
 
 ### Review Questions
+
+1) If you have a function called "paintCar" that changes the color of a car and you call it with the color "blue", what will be the color of the car outside the function?
+
+2) Explain why, in C++, when you pass information to a function using value parameters, the original data remains unchanged.
+
+3) True or False: Changes made to a value parameter inside a function affect the original argument variable in the calling code.
+
+4) How does the use of value parameters contribute to code safety and prevent unintended side effects?
+
+5) If you have a function called "paintCar" that changes the color of a car and you call it with the color "blue", what will be the color of the car outside the function?
 
 ## Reference Variables as Parameters
 
