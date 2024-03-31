@@ -157,6 +157,8 @@ In C++, a var that's declared outside of all functions and classes is called a g
 
 Named constants are special kinds of variables that can't be changed once they're set. This helps you keep a specific value in your code that you don't want to alter accidentally. To create a named constant, you can use the keyword const.
 
+In C++, a side effect is when a function or process alters some part of the program's status beyond its own boundaries. It might be tweaking a global value, modifying a document, or even showing information to the consumer. Even though side effects oftentimes prove beneficial, particularly when addressing a database or presenting data to a client, they may complicate the code's comprehensibility and fixing, particularly when the ramifications aren't promptly documented or are unanticipated.
+
 ### Review Questions
 
 ## Static and Automatic Variables
