@@ -103,28 +103,24 @@ Local Scope: If an identifier is declared inside a function or a group of code, 
 Class Scope: If an identifier is declared inside a class (but not in one of its methods), it has class scope. It can be used by all methods inside that class.
 
 Example:
+
 #include <iostream> // global scope
 using namespace std;
-
 int globalVar = 10; // global scope
-
 class MyClass {
     int classVar; // class scope
-
-    void myMethod() {
+ void myMethod() {
         int localVar = 5; // local scope
         cout << localVar << endl; // can access localVar
         cout << classVar << endl; // can access classVar
         cout << globalVar << endl; // can access globalVar
     }
 };
-
 int main() {
     int localVar = 20; // local scope
     cout << localVar << endl; // can access localVar
     cout << globalVar << endl; // can access globalVar
-    // cout << classVar << endl; // error: cannot access classVar
-}
+    }
 
 ### Review Questions
 
