@@ -102,6 +102,16 @@ In this example, the function updateValue takes a reference parameter x. When we
 
 ### Review Questions
 
+1) True or False: When passing an argument by reference, a new memory location is created for the parameter.
+
+2) True or False: Reference parameters can be used to return multiple values from a function.
+
+3) In what situations would you prefer to use reference parameters over value parameters, or vice versa?
+
+4) What is the advantage of using reference parameters when working with large objects or data structures?
+
+5) When passing an argument by reference, is a new memory location created for the parameter or not? Explain.
+
 ## Value and Reference Parameters and Memory Allocation
 
 ### Review Questions
