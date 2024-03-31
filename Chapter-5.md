@@ -86,7 +86,7 @@ A reference parameter is a reference to the memory location of a variable. When 
 
 The syntax for declaring a reference parameter is to use the & symbol before the parameter's type:
 
-
+...
 void updateValue(int& x) {
     x = 10; // Modifies the original argument variable
 }
@@ -97,7 +97,7 @@ int main() {
     cout << "Value of a: " << a << endl; // Output: Value of a: 10
     return 0;
 }
-
+...
 In this example, the function updateValue takes a reference parameter x. When we call updateValue(a), we're passing the memory address of a to the function. Inside updateValue, any changes made to x are actually modifying the original variable a in the calling code.
 
 ### Review Questions
