@@ -172,6 +172,12 @@ In C++ automatic variables are the type of variable. They are generated upon ent
 
 ## Debugging: Using Drivers and Stubs
 
+When dealing with systems pinpointing and addressing issues can sometimes be challenging. This is where the roles of drivers and stubs prove to be useful.
+
+Drivers; Acting as a mediator a driver consists of code that invokes a module or function undergoing testing. It supplies test data to the module or function. Showcases the resulting output. Drivers are utilized in situations where testing a module at a level's necessary but the higher level module that calls it has not yet been developed. In scenarios the driver emulates the behavior of the higher level module.
+
+Stubs; On the other hand, a stub serves as a placeholder—a pseudo module or function that is invoked by the module under examination. Stubs are employed when testing involves modules that call upon lower-level modules or functions that're still, in development. Here the stub imitates the functionality of these lower-level modules by furnishing outputs.
+
 ### Review Questions
 
 ## Function Overloading: An Introduction
