@@ -17,6 +17,8 @@ Upon completion of this unit, students will be able to:
 
 ## Introduction
 
+Functions are like powerful tools that help you break down complex problems into smaller, more manageable steps. They can perform specific tasks, reuse code efficiently, and improve the program. In this section, you'll gain a foundation in working with functions in C++. Think of functions as building blocks. By breaking down your program into smaller, reusable functions, you're laying a strong foundation for well-structured, efficient, and maintainable C++ code.
+
 ## Predefined Functions
 
 ### Review Questions
