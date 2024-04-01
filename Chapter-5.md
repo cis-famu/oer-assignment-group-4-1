@@ -20,42 +20,116 @@ Upon completion of this unit, students will be able to:
 Functions are like powerful tools that help you break down complex problems into smaller, more manageable steps. They can perform specific tasks, reuse code efficiently, and improve the program. In this section, you'll gain a foundation in working with functions in C++. Think of functions as building blocks. By breaking down your program into smaller, reusable functions, you're laying a strong foundation for well-structured, efficient, and maintainable C++ code.
 
 ## Predefined Functions
+Using predefined functions in C++ is beneficial when you need to reuse certain values. This allows you to not have to build everything from scratch each time you need it.
+
+Some examples of mathematical predefined functions are ```pow(x,y), sqrt(x), and floor(x).```
+
+First off to use predefined functions in a program you must first include the header file that contains the functions' specification using the include statement.
+
+As an example if you wanted to use the floor(x) function you would have to use the #include <cmath> header.
 
 ### Review Questions
+1. Which of the following is a benefit of using predefined functions in C++?
+   A) They allow you to reuse certain values without building everything from scratch.
+   B) They require you to write all the code for tasks yourself.
+   C) They slow down the execution of the program.
+   D) They increase the complexity of the code.
+
+2. Which of the following is NOT an example of a mathematical predefined function in C++?
+   A) pow(x, y)
+   B) sqrt(x)
+   C) log(x)
+   D) floor(x)
+
+3. True or False: To use predefined functions in a C++ program, you must include the header file that contains the functions' specification using the include statement.
+   A) True
+   B) False
+
+Answers- 1. A, 2. C, 3. A.
 
 ## User-Defined Functions
-
+There are two types of User-Defined Functions:
+    Value-returning functions: with these functions you give it a value and it gives you back something in return.
+    Void functions: you tell it to do something and it does it but you do not get anything back.
+    
 ### Review Questions
+1. What is the main difference between value-returning functions and void functions?
+   A) Value-returning functions return a value of a specific data type, while void functions do not return any value.
+   B) Value-returning functions do not have a return type, while void functions return a specific data type.
+   C) Value-returning functions do not use a return statement, while void functions use a return statement to return a value.
+
+2. If a function returns the sum of two numbers, what type of function is it likely to be?
+   A) Value-returning function
+   B) Void function
+   C) Conditional function
+
+3. True or False: Void functions can't perform any calculations or operations, they can only print output to the screen.
+   A) True
+   B) False
+
+Answers- 1. A, 2. A, 3. B.
 
 ## Value-Returning Functions
+The proper syntax for value-returning functions includes:
+    Formal parameters: a variable declared in the function heading.
+    Actual parameters: a variable or expression listed in a call to a function.
 
 ### Syntax: Value-Returning Function
+An example:
+```int add(int a, int b) {
+        return a + b;
+}```
 
 ### Syntax: Formal Parameter List
+An example: 
+```int addNumbers(int num1, int num2);```
 
 ### Function Call
+Syntax example:
+``` int sum = addNumbers(a,b);```
 
 ### Syntax: Actual Parameter List
-
-### return Statement
-
-### Syntax: return Statement
-
-### Function Prototype
-
-### Syntax: Function Prototype
-
-### Value-Returning Functions: Some Peculiarities
-
-### More Examples of Value-Returning Functions
-
-### Flow of Compilation and Execution
+An example:
+```void greetUser(string name, int age)```
 
 ### Review Questions
+1. What is the purpose of value-returning functions in C++?
+   A) To perform calculations and return a result to the caller.
+   B) To print messages to the console.
+   C) To declare variables within a function.
+
+2. What is the proper syntax for defining a value-returning function in C++?
+   A) ```void functionName(int param1, int param2) { }```
+   B) ```int functionName(int param1, int param2) { }```
+   C) ```functionName(int param1, int param2) { }```
+
+3. In the function call `int result = add(3, 5);`, what are the actual parameters?
+   A) `result`
+   B) `3` and `5`
+   C) `add` and `(3, 5)`
+
+Answers- 1. A, 2. B, 3. B.
 
 ## Void Functions
+* A void function does not have a data type.
+* In a void function you can use the return statement without any value.
 
 ### Review Questions
+1. True or False: A void function does not have a return type.
+   - A) True
+   - B) False
+
+2. What is the purpose of using the return statement in a void function?
+   - A) To return a value to the caller.
+   - B) To exit the function and return control to the caller without returning any value.
+   - C) To print output to the console.
+
+3. Which of the following best describes a void function?
+   - A) A function that performs calculations and returns a result.
+   - B) A function that does not return any value.
+   - C) A function that has a void data type.
+
+Answers- 1. A, 2. B, 3. B.
 
 ## Value Parameters
 
@@ -290,6 +364,29 @@ In C++ you have the option to set default values, for parameters within a functi
 Have you ever attempted to put together a giant puzzle? Functions in C++ are like dividing that puzzle into smaller pieces. Each piece completes a tiny part of the bigger picture, making the entire puzzle less daunting. Similarly, functions break down complex programming problems into manageable steps. Each function focuses on a specific task, like calculating an area or displaying a menu. By putting these "function pieces" together, you build well-structured C++ programs
 
 ## Key Terms
+1. modules- another name for a function.
+2. parameters- an identifier in a function header, which acts within the function as a regular local variable; a parameter may be formal or actual.
+3. function header- includes the name of the function, the number of parameters if any, the data type of each parameter, and the data type of the value returned by the function.
+4. body- the code within the function required to accomplish the task.
+5. definition- includes the name of the function, a listing of the parameters if any, the data type of each parameter, the data type of the value returned by the function, and the code required to accomplish the task.
+6. formal parameter- a variable declared in the function heading.
+7. actual parameters- a variable or expression listed in a call to a function.
+8. data type- the return type of a value-returning function.
+9. return type- the data type of the value that the function returns; also called the data type of a function.
+10. local declaration- a declaration of a variable within a block of code for use only within that block.
+11. function prototypes- a function heading without the body of the function.
+12. value parameters- A formal parameter that receives a copy of the content of the corresponding actual parameter.
+13. reference parameters- a formal parameter that receives the location (memory address) of the corresponding actual parameter.
+14. local variables- variables declared in the body of a function (or block) for use only within that function (or block).
+15. scope- refers to where an identifier is accessible (visible) in a program.
+16. Local identifier- an identifier declared within a function (or block).
+17. Global identifier- an identifier declared outside of every function definition.
+18. nested block- a block declared within another block.
+19. external variable- a global variable declared within a function using the extern reserved word; the keyword extern indicates that the variable is declared elsewhere.
+20. automatic variable- a variable for which memory is allocated at block entry and deallocated at block exit.
+21. driver- a program that tests a function.
+22. function overloading- creating several functions with the same name but different formal parameter lists.
+23. different formal parameter lists- when two or more functions with the same name have a different number of formal parameters, or if they have the same number of parameters, the data type of the parameters differs in at least one position.
 
 ## Programming Exercise
 
