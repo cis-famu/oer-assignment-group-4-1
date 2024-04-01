@@ -163,6 +163,11 @@ In C++, a side effect is when a function or process alters some part of the prog
 
 ## Static and Automatic Variables
 
+In C++, a var that keeps its worth between function calls is called static. It's initialized only once and its memory is secured when the program begins, then released once the program ends. Static vars can be created inside a function (only accessible within that func), or outside a function (accessible within the whole file).
+
+
+In C++ automatic variables are the type of variable. They are generated upon entering a block, such, as a function. Are removed when exiting that block. Their values do not carry over between function invocations. If you forget to set a variable it contains data (whatever was stored in that memory spot previously).
+
 ### Review Questions
 
 ## Debugging: Using Drivers and Stubs
