@@ -188,6 +188,8 @@ In C++ function overloading allows you to create functions, with names but varyi
 
 ## Functions with Default Parameters
 
+In C++ you have the option to set default values, for parameters within a function. This indicates that if you invoke the function without giving a value for that parameter the default value will be utilized. This feature proves handy when you aim to establish a default action, for a function while granting the caller the ability to alter that action if desired.
+
 ### Review Questions
 
 ## Summary
