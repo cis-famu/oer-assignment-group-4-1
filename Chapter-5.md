@@ -163,6 +163,16 @@ It's important to note that in C++, when you pass an object (such as a class ins
 
 ### Review Questions
 
+1) What are the two types of function parameters in C++?
+
+2) When would you choose to use value parameters over reference parameters in C++?
+
+3) Explain the concept of pass by value and pass by reference in C++.
+
+4) Compare and contrast the behavior of value parameters and reference parameters when passed to a function.
+
+5) What happens to the original variable when it's passed as a value parameter to a function?
+
 ## Reference and Parameters and Value-Returning Functions
 
 ### Review Questions
