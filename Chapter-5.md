@@ -76,13 +76,18 @@ The proper syntax for value-returning functions includes:
 
 ### Syntax: Value-Returning Function
 An example:
-```int add(int a, int b) {
+```
+int add(int a, int b) {
         return a + b;
-}```
+}
+```
 
 ### Syntax: Formal Parameter List
-An example: 
-```int addNumbers(int num1, int num2);```
+An example:
+
+```
+int addNumbers(int num1, int num2);
+```
 
 ### Function Call
 Syntax example:
