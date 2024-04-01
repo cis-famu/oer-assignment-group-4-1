@@ -190,6 +190,8 @@ Reference Parameters: When you need a function to directly modify the original v
 
 4) Write a short code snippet demonstrating how to pass a variable by reference to a function.
 
+5) Analogy: How is passing a value parameter similar to making a photocopy?
+
 ## Scope of an Identifier
 
 In C++, the place where an identifier can be used is called its scope. There are 3 kinds of scopes:
