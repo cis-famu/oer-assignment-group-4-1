@@ -314,6 +314,10 @@ In C++, a side effect is when a function or process alters some part of the prog
 
 ### Review Questions
 
+1.) Describe named constants.
+
+2.) What is the process of a side effect?
+
 ## Static and Automatic Variables
 
 In C++, a var that keeps its worth between function calls is called static. It's initialized only once and its memory is secured when the program begins, then released once the program ends. Static vars can be created inside a function (only accessible within that func), or outside a function (accessible within the whole file).
