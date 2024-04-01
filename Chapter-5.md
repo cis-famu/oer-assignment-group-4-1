@@ -175,7 +175,7 @@ It's important to note that in C++, when you pass an object (such as a class ins
 
 ## Reference and Parameters and Value-Returning Functions
 
-In C++ functions are tools that let you break down complex tasks into manageable steps. These functions often need information to work with, which is provided through parameters. There are two main ways to pass this information:
+    In C++ functions are tools that let you break down complex tasks into manageable steps. These functions often need information to work with, which is provided through parameters. There are two main ways to pass this information:
     Value Parameters: By default, functions receive arguments as value parameters. This means a copy of the argument's value is created and passed to the function. Any changes the function makes to this copy do not affect the original variable. Think of it like giving the function a photocopy of your document - it can work with the copy, but the original remains untouched.
     Reference Parameters: When you need a function to directly modify the original variable, you can use reference parameters. These parameters are declared with an ampersand (&) before their type. When you pass a variable by reference, the function essentially gets a special nickname (the reference) that points directly to the original variable. Any changes made through this reference will affect the original variable. Imagine handing the function the actual document itself, not just a copy.
 
