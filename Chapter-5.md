@@ -244,6 +244,10 @@ In C++ automatic variables are the type of variable. They are generated upon ent
 
 ### Review Questions
 
+1. What is the difference between static and automatic variables?
+
+2. What happens when you don't initialize an automatic variable?
+
 ## Debugging: Using Drivers and Stubs
 
 When dealing with systems pinpointing and addressing issues can sometimes be challenging. This is where the roles of drivers and stubs prove to be useful.
