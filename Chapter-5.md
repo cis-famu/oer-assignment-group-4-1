@@ -114,6 +114,53 @@ In this example, the function updateValue takes a reference parameter x. When we
 
 ## Value and Reference Parameters and Memory Allocation
 
+In C++ there are two types of function parameters: value parameters and reference parameters.Value parameters are used to pass information into a function. When you pass an argument to a function by value, a copy of the argument's value is created and passed to the function's parameter variable. Any changes made to the parameter variable inside the function do not affect the original argument variable in the calling code.
+Value Parameters (Pass by Value) in C++:
+
+When you pass an argument to a function as a value parameter in C++, a new copy of the argument's value is created in memory. Any changes made to the parameter inside the function will not affect the original variable passed as an argument.
+
+Example:
+```
+void incrementValue(int x) {
+    x++; // x is a copy of the argument's value
+    // Changes to x won't affect the original variable
+}
+
+int main() {
+    int a = 5;
+    incrementValue(a); // Passing a as a value parameter
+    cout << a; // Output: 5 (a is not modified)
+    return 0;
+}
+```
+In this example, the incrementValue function creates a copy of the value of a (which is 5) and stores it in the parameter x. Incrementing x within the function does not affect the original variable a in the main function.
+
+Reference Parameters (Pass by Reference) in C++:
+
+When you pass an argument to a function as a reference parameter in C++, you're passing a reference (or an alias) to the original variable's memory location. Any changes made to the parameter inside the function will affect the original variable passed as an argument.
+
+```
+void incrementReference(int& x) {
+    x++; // x is a reference to the original variable
+    // Changes to x will affect the original variable
+}
+
+int main() {
+    int a = 5;
+    incrementReference(a); // Passing a as a reference parameter
+    cout << a; // Output: 6 (a is modified)
+    return 0;
+}
+```
+The incrementReference function takes a reference to the original variable a using the int& syntax. When x is incremented within the function, it modifies the value stored at the memory location of a in the main function.
+
+Memory Allocation in C++:
+
+Value Parameters: A new memory location is allocated for the copy of the argument's value, separate from the original variable's memory location.
+Reference Parameters: No new memory is allocated; the parameter refers to the same memory location as the original variable. The choice between value and reference parameters in C++ depends on the desired behavior of the function and whether you want to modify the original variable or work with a copy of its value. Value parameters are typically used when you don't want the function to modify the original variable, while reference parameters are used when you want the function to modify the original variable directly.
+It's important to note that in C++, when you pass an object (such as a class instance) as a value parameter, a copy constructor is called to create a new copy of the object. Similarly, when you pass an object as a reference parameter, no new copy is created, and the function operates on the original object.
+
+
 ### Review Questions
 
 ## Reference and Parameters and Value-Returning Functions
