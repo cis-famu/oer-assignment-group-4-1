@@ -182,6 +182,8 @@ Stubs; On the other hand, a stub serves as a placeholder—a pseudo module or fu
 
 ## Function Overloading: An Introduction
 
+In C++ function overloading allows you to create functions, with names but varying parameters. These parameters may vary in terms of quantity, type or sequence. When you invoke the function the compiler decides which one to use based on the arguments you pass. This concept is a form of polymorphism, which's fundamental, in object oriented programming.
+
 ### Review Questions
 
 ## Functions with Default Parameters
