@@ -297,8 +297,9 @@ Have you ever attempted to put together a giant puzzle? Functions in C++ are lik
 
 OpenAI. (2024, April 30). https://openai.com/  
 
-
 C++ programming language. C++ Basics - C++ Programming Tutorial. (n.d.). https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp1_basics.html 
+
+Malik, D. S. (2018). C++ Programming: From problem analysis to program design (8th ed.). Cengage Learning.
 
 
 This chapter's editor was ...
