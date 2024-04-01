@@ -242,6 +242,21 @@ In C++, a var that keeps its worth between function calls is called static. It's
 
 In C++ automatic variables are the type of variable. They are generated upon entering a block, such, as a function. Are removed when exiting that block. Their values do not carry over between function invocations. If you forget to set a variable it contains data (whatever was stored in that memory spot previously).
 
+Example:
+
+void someFunction() {
+    static int staticVar = 0; // This is a static variable
+    staticVar++;
+    cout << staticVar << endl;
+}
+
+int main() {
+    someFunction(); // This will print 1
+    someFunction(); // This will print 2
+    return 0;
+}
+
+
 ### Review Questions
 
 1. What is the difference between static and automatic variables?
