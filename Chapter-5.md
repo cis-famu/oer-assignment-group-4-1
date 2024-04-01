@@ -188,6 +188,8 @@ Reference Parameters: When you need a function to directly modify the original v
 
 3) Efficiency: How does passing large objects by value vs. reference affect program efficiency?
 
+4) Write a short code snippet demonstrating how to pass a variable by reference to a function.
+
 ## Scope of an Identifier
 
 In C++, the place where an identifier can be used is called its scope. There are 3 kinds of scopes:
