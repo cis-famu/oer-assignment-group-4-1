@@ -268,6 +268,8 @@ In C++ you have the option to set default values, for parameters within a functi
 
 ## Summary
 
+Have you ever attempted to put together a giant puzzle? Functions in C++ are like dividing that puzzle into smaller pieces. Each piece completes a tiny part of the bigger picture, making the entire puzzle less daunting. Similarly, functions break down complex programming problems into manageable steps. Each function focuses on a specific task, like calculating an area or displaying a menu. By putting these "function pieces" together, you build well-structured C++ programs
+
 ## Key Terms
 
 ## Programming Exercise
