@@ -182,6 +182,8 @@ Reference Parameters: When you need a function to directly modify the original v
 
 ### Review Questions
 
+1) What are the two main ways to pass information (arguments) to functions in C++?
+
 ## Scope of an Identifier
 
 In C++, the place where an identifier can be used is called its scope. There are 3 kinds of scopes:
