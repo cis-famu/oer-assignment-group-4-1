@@ -1,4 +1,4 @@
-# Intoduction to Chapter 5
+# Introduction to Chapter 5
 
 ## Objectives
 Upon completion of this unit, students will be able to:
