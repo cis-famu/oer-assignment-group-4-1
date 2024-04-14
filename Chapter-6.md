@@ -91,6 +91,10 @@ replace(): Replaces a substring within the string.
 
 ## Programming Exercises
 
+1.) Print the value of the variable to the console. (You'll need to use a switch statement or an array of string literals to convert the enum value to a string.)
+
+2.) Declare a std::string variable and assign it a sentence of your choice.
+
 ## References
 
 This chapters editor was (...).
