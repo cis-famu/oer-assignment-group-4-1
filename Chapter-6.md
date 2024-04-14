@@ -54,11 +54,30 @@ Answers - 1. A, 2. C, 3. B.
 
 ## Namespaces
 
+We can use Namespaces in C++  to organize code into logical groups and to prevent name collisions that can  when our code bases includes multiple libraries. A namespace is a declarative region that provides a scope to the identifiers (names of types, functions, variables, etc) inside it.
+
 ### Review Questions
 
 ## ```string```Type
 
+In C++, std::string is a class in the Standard Library that provides functionality to work with strings of characters. It's a more feature-rich and safer alternative to C-style character arrays.
+
+For example,
+
+#include <string>
+
+std::string myString = "Hello, world!";
+
 ### Additional ```string``` Operations
+
+The std::string class provides many practical methods for manipulating strings.
+
+For example:
+
+length(): Returns the length of the string.
+substr(): Returns a substring.
+find(): Finds a substring within the string.
+replace(): Replaces a substring within the string.
 
 ### Review Questions
 
