@@ -1,5 +1,7 @@
 # Introduction to Chapter 6
 
+Enumeration can help you create custom data types to organize related constant values.  Creating a list of options that your program can understand and work with. enumeration can make your code much more reliable, more readable, and less prone to errors. An enumeration is a type of data defined by the user, composed of integral constants. Enumeration is also known as an enumerated type.
+
 ## Objectives
 
 ## Introduction
